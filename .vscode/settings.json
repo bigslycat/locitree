@@ -26,6 +26,11 @@
     "editor.defaultFormatter": "oxc.oxc-vscode"
   },
 
+  "[github-actions-workflow]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+
   "[json]": {
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "oxc.oxc-vscode"
