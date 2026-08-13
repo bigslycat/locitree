@@ -143,8 +143,7 @@ APIs that consume the resolved location.
 
 ## Compatibility
 
-- Node.js 10 or later. On Node.js 10, only `locitree` is available;
-  `locitree/node` requires Node.js 12 or later.
+- Node.js `^14.18.0` or `>=16.0.0`.
 - ESM and CommonJS builds are included.
 - `locitree` uses no Node.js APIs; `locitree/node` uses `node:path` and is
   Node.js-only.
