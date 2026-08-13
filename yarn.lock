@@ -3,7 +3,7 @@
     "version": 9
   },
   "workspaces": {
-    "locitree": "36e8c97965d574a67791a8bf095934a740ad905b308b1f90429b5ec5629d5aae0a082ac21d0511c942e02dcc1cb41b49ca8a9ad4f58393d9e67042c2cf4f2e5a"
+    "locitree": "e1e22329a2eda7fe6eb97addad72864440da3f5c377e68ce7a477ffbfcc29d94c61da79a5df734ae2264993851dd35a0aea5e6ce43239181063a03457101eb1e"
   },
   "entries": {
     "@andrewbranch/untar.js@npm:^1.0.3": {
@@ -1389,7 +1389,7 @@
         }
       }
     },
-    "@rsbuild/core@npm:~2.1.4": {
+    "@rsbuild/core@npm:~2.1.4, @rsbuild/core@npm:~2.1.9": {
       "checksum": "2f1f8f478165fa1f9e76bfa8f7c431a550bb0c4bb171bc1cba8f8e6041178d274faa77109edf798dda8e95aca07e3f9994c55245dd7fceaf2229063ec0dc8211",
       "resolution": {
         "resolution": "@rsbuild/core@npm:2.1.11",
@@ -1718,6 +1718,40 @@
         ]
       }
     },
+    "@rstest/adapter-rslib@npm:^0.11.6": {
+      "checksum": "af556f30dca8110aa27515aace06bcf108879b2e105fea5f682a52f1dc7e96c6f32b52cb624a51d9c40763348d83bd920631f9e0e92d0ee9d978889c3eb9f495",
+      "resolution": {
+        "resolution": "@rstest/adapter-rslib@npm:0.11.6",
+        "version": "0.11.6",
+        "peerDependencies": {
+          "@rslib/core": ">=0.18.6 || ^1.0.0-0",
+          "@rstest/core": "^0.11.0",
+          "typescript": "^5.0.0 || ^6.0.0 || ^7.0.0"
+        },
+        "optionalPeerDependencies": [
+          "typescript"
+        ]
+      }
+    },
+    "@rstest/core@npm:^0.11.6": {
+      "checksum": "2b22c64e53eadd5e2a7c5e367742787cd07af45350d327508d627a5da8ae1f60bef8b53bab0176aeb30255acbf6b64681eeb10e32880122aa3379c2fbb3dc598",
+      "resolution": {
+        "resolution": "@rstest/core@npm:0.11.6",
+        "version": "0.11.6",
+        "dependencies": {
+          "@rsbuild/core": "~2.1.9",
+          "@types/chai": "^5.2.3"
+        },
+        "peerDependencies": {
+          "happy-dom": "^20.8.3",
+          "jsdom": ">=15.0.0"
+        },
+        "optionalPeerDependencies": [
+          "happy-dom",
+          "jsdom"
+        ]
+      }
+    },
     "@sindresorhus/is@npm:^4.6.0": {
       "checksum": "30ca2fcc28c4186b081bbc58e0671649bb3cab9691d507dc60128cbf5bea69a8dd5e9dc5c08eb96902a408ce802e249a0df5d6a58d1513171329549dd7615329",
       "resolution": {
@@ -1743,6 +1777,24 @@
         "dependencies": {
           "tslib": "^2.4.0"
         }
+      }
+    },
+    "@types/chai@npm:^5.2.3": {
+      "checksum": "90851806240d332efa99cb5e725e09a34c0d6246cae367f7bcb5485c734c1dc06afb897938d8c001544b77286aa78f5ef3849db8ddd993233ceb04e93a43861c",
+      "resolution": {
+        "resolution": "@types/chai@npm:5.2.3",
+        "version": "5.2.3",
+        "dependencies": {
+          "@types/deep-eql": "*",
+          "assertion-error": "^2.0.1"
+        }
+      }
+    },
+    "@types/deep-eql@npm:*": {
+      "checksum": "5bb7aba963581c8e39d46bae0811fcc50b2ddf88f204b019b2d271a9b169b58588b8e1b409dc21157692bcf1fd777a0a3ea8ddf1457ba1f7e9005518538eada9",
+      "resolution": {
+        "resolution": "@types/deep-eql@npm:4.0.2",
+        "version": "4.0.2"
       }
     },
     "@types/node@npm:^26.2.0": {
@@ -2094,6 +2146,13 @@
       "resolution": {
         "resolution": "any-promise@npm:1.3.0",
         "version": "1.3.0"
+      }
+    },
+    "assertion-error@npm:^2.0.1": {
+      "checksum": "5acef493a2505d9292b8599974f7dea076075fc471a349f0e22b4a9e824b5207fe3a841830a50032771692ac5db4347bf0f3de4f4d8690f6322c627add7d1b20",
+      "resolution": {
+        "resolution": "assertion-error@npm:2.0.1",
+        "version": "2.0.1"
       }
     },
     "chalk@npm:^4.0.0, chalk@npm:^4.1.2": {

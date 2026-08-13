@@ -5,7 +5,7 @@ const SYNTAX = ['node 10', '>0.17%', 'last 5 versions', 'not dead']
 export default defineConfig({
   source: {
     entry: {
-      index: './src',
+      index: ['./src', '!**/*.test.ts'],
     },
 
     tsconfigPath: './tsconfig.build.json',
