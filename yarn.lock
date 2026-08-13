@@ -1,0 +1,2822 @@
+{
+  "__metadata": {
+    "version": 9
+  },
+  "workspaces": {
+    "locitree": "36e8c97965d574a67791a8bf095934a740ad905b308b1f90429b5ec5629d5aae0a082ac21d0511c942e02dcc1cb41b49ca8a9ad4f58393d9e67042c2cf4f2e5a"
+  },
+  "entries": {
+    "@andrewbranch/untar.js@npm:^1.0.3": {
+      "checksum": "bdc083585219582fcc19bbc970c4ebdbf7e9ffc86708f3c037081872ac7d62ffbcc2731abd63f691968389674397f101c8ac48c1cb419a2022914d1ccfd792e8",
+      "resolution": {
+        "resolution": "@andrewbranch/untar.js@npm:1.0.4",
+        "version": "1.0.4"
+      }
+    },
+    "@arethetypeswrong/cli@npm:^0.18.5": {
+      "checksum": "98991c95586458f22b9b51244da620acc88b7d58081a97bb28437f7c3d57d7d5972dd00bf868314953f201432768124dd97f25871489bfe89458539225d10b5e",
+      "resolution": {
+        "resolution": "@arethetypeswrong/cli@npm:0.18.5",
+        "version": "0.18.5",
+        "dependencies": {
+          "@arethetypeswrong/core": "0.18.5",
+          "chalk": "^4.1.2",
+          "cli-table3": "^0.6.3",
+          "commander": "^10.0.1",
+          "marked": "^9.1.2",
+          "marked-terminal": "^7.1.0",
+          "semver": "^7.5.4"
+        }
+      }
+    },
+    "@arethetypeswrong/core@npm:0.18.5": {
+      "checksum": "c1f1ed9f020d4ed6258c320dc6e1ea208be1613b5519ef73cbc2e5379a9b28c4b6edeaa49494aafb406704cbb2a2fd736b8e8c5752d185c6cf6165894c9f7e8e",
+      "resolution": {
+        "resolution": "@arethetypeswrong/core@npm:0.18.5",
+        "version": "0.18.5",
+        "dependencies": {
+          "@andrewbranch/untar.js": "^1.0.3",
+          "@loaderkit/resolve": "^1.0.2",
+          "cjs-module-lexer": "^1.2.3",
+          "fflate": "^0.8.3",
+          "lru-cache": "^11.0.1",
+          "semver": "^7.5.4",
+          "typescript": "5.6.1-rc",
+          "validate-npm-package-name": "^5.0.0"
+        }
+      }
+    },
+    "@ast-grep/napi@npm:0.37.0": {
+      "checksum": "9be026bbe99c5cd80b291bfb9a3f39524e78eed27826c9b9b7526a8eb6ae20cb59fde60327670b66944f22f1d95968988df8fc27336432d43c501802f7896f13",
+      "resolution": {
+        "resolution": "@ast-grep/napi@npm:0.37.0",
+        "version": "0.37.0",
+        "dependencies": {
+          "@ast-grep/napi-darwin-arm64": "0.37.0",
+          "@ast-grep/napi-darwin-x64": "0.37.0",
+          "@ast-grep/napi-linux-arm64-gnu": "0.37.0",
+          "@ast-grep/napi-linux-arm64-musl": "0.37.0",
+          "@ast-grep/napi-linux-x64-gnu": "0.37.0",
+          "@ast-grep/napi-linux-x64-musl": "0.37.0",
+          "@ast-grep/napi-win32-arm64-msvc": "0.37.0",
+          "@ast-grep/napi-win32-ia32-msvc": "0.37.0",
+          "@ast-grep/napi-win32-x64-msvc": "0.37.0"
+        },
+        "optionalDependencies": [
+          "@ast-grep/napi-darwin-arm64",
+          "@ast-grep/napi-darwin-x64",
+          "@ast-grep/napi-linux-arm64-gnu",
+          "@ast-grep/napi-linux-arm64-musl",
+          "@ast-grep/napi-linux-x64-gnu",
+          "@ast-grep/napi-linux-x64-musl",
+          "@ast-grep/napi-win32-arm64-msvc",
+          "@ast-grep/napi-win32-ia32-msvc",
+          "@ast-grep/napi-win32-x64-msvc"
+        ]
+      }
+    },
+    "@ast-grep/napi-darwin-arm64@npm:0.37.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@ast-grep/napi-darwin-arm64@npm:0.37.0",
+        "version": "0.37.0",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "darwin"
+          ]
+        }
+      }
+    },
+    "@ast-grep/napi-darwin-x64@npm:0.37.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@ast-grep/napi-darwin-x64@npm:0.37.0",
+        "version": "0.37.0",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "darwin"
+          ]
+        }
+      }
+    },
+    "@ast-grep/napi-linux-arm64-gnu@npm:0.37.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@ast-grep/napi-linux-arm64-gnu@npm:0.37.0",
+        "version": "0.37.0",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "glibc"
+          ]
+        }
+      }
+    },
+    "@ast-grep/napi-linux-arm64-musl@npm:0.37.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@ast-grep/napi-linux-arm64-musl@npm:0.37.0",
+        "version": "0.37.0",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "musl"
+          ]
+        }
+      }
+    },
+    "@ast-grep/napi-linux-x64-gnu@npm:0.37.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@ast-grep/napi-linux-x64-gnu@npm:0.37.0",
+        "version": "0.37.0",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "glibc"
+          ]
+        }
+      }
+    },
+    "@ast-grep/napi-linux-x64-musl@npm:0.37.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@ast-grep/napi-linux-x64-musl@npm:0.37.0",
+        "version": "0.37.0",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "musl"
+          ]
+        }
+      }
+    },
+    "@ast-grep/napi-win32-arm64-msvc@npm:0.37.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@ast-grep/napi-win32-arm64-msvc@npm:0.37.0",
+        "version": "0.37.0",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "win32"
+          ]
+        }
+      }
+    },
+    "@ast-grep/napi-win32-ia32-msvc@npm:0.37.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@ast-grep/napi-win32-ia32-msvc@npm:0.37.0",
+        "version": "0.37.0",
+        "requirements": {
+          "cpu": [
+            "ia32"
+          ],
+          "os": [
+            "win32"
+          ]
+        }
+      }
+    },
+    "@ast-grep/napi-win32-x64-msvc@npm:0.37.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@ast-grep/napi-win32-x64-msvc@npm:0.37.0",
+        "version": "0.37.0",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "win32"
+          ]
+        }
+      }
+    },
+    "@braidai/lang@npm:^1.0.0": {
+      "checksum": "7f914f691bf312bef17eafe054974f09c4823d9a21a41ce9c6267579380b20b5d33bc11f664e74680ced70b353c267b7056b29fab558bf4701d170409aa8c6d0",
+      "resolution": {
+        "resolution": "@braidai/lang@npm:1.1.2",
+        "version": "1.1.2"
+      }
+    },
+    "@colors/colors@npm:1.5.0": {
+      "checksum": "657240a1edc9478a8cf6d96ed0b1bc28b56f1ca5c209ea339e618774c09f051d5ccdc1dc74a3d644aecdbc64d0e8852f81dd4a64a43b37c2bddb8eee2fb5c2f2",
+      "resolution": {
+        "resolution": "@colors/colors@npm:1.5.0",
+        "version": "1.5.0"
+      }
+    },
+    "@emnapi/core@npm:1.11.3": {
+      "checksum": "a700d98209c2e641c06ada67ba966314bc817913db47f4219b851cd164541d29489ccb6fdac22188ec919d07b3788b2de86d757ba99c835aff1e770a02aafe41",
+      "resolution": {
+        "resolution": "@emnapi/core@npm:1.11.3",
+        "version": "1.11.3",
+        "dependencies": {
+          "@emnapi/wasi-threads": "1.2.3",
+          "tslib": "^2.4.0"
+        }
+      }
+    },
+    "@emnapi/runtime@npm:1.11.3": {
+      "checksum": "6148b323dad1f0075b9812835982c80bc9f9c6e5ad683cd612d9d86fdcd31bff233a73572511d328f07638761fd7f5d558f6a5768dc31a505d1a392e40f82443",
+      "resolution": {
+        "resolution": "@emnapi/runtime@npm:1.11.3",
+        "version": "1.11.3",
+        "dependencies": {
+          "tslib": "^2.4.0"
+        }
+      }
+    },
+    "@emnapi/wasi-threads@npm:1.2.3": {
+      "checksum": "34f844ebd0a88a055a84995a544f72e6257f7588c58fff7ae5bd8f7afa49af0265e20a2aae1cae5704d645cc1ff5e5ef4ab3d43c3f6f92be8606ef6d163d07ec",
+      "resolution": {
+        "resolution": "@emnapi/wasi-threads@npm:1.2.3",
+        "version": "1.2.3",
+        "dependencies": {
+          "tslib": "^2.4.0"
+        }
+      }
+    },
+    "@esbuild/aix-ppc64@npm:0.28.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@esbuild/aix-ppc64@npm:0.28.2",
+        "version": "0.28.2",
+        "requirements": {
+          "cpu": [
+            "ppc64"
+          ],
+          "os": [
+            "aix"
+          ]
+        }
+      }
+    },
+    "@esbuild/android-arm@npm:0.28.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@esbuild/android-arm@npm:0.28.2",
+        "version": "0.28.2",
+        "requirements": {
+          "cpu": [
+            "arm"
+          ],
+          "os": [
+            "android"
+          ]
+        }
+      }
+    },
+    "@esbuild/android-arm64@npm:0.28.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@esbuild/android-arm64@npm:0.28.2",
+        "version": "0.28.2",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "android"
+          ]
+        }
+      }
+    },
+    "@esbuild/android-x64@npm:0.28.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@esbuild/android-x64@npm:0.28.2",
+        "version": "0.28.2",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "android"
+          ]
+        }
+      }
+    },
+    "@esbuild/darwin-arm64@npm:0.28.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@esbuild/darwin-arm64@npm:0.28.2",
+        "version": "0.28.2",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "darwin"
+          ]
+        }
+      }
+    },
+    "@esbuild/darwin-x64@npm:0.28.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@esbuild/darwin-x64@npm:0.28.2",
+        "version": "0.28.2",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "darwin"
+          ]
+        }
+      }
+    },
+    "@esbuild/freebsd-arm64@npm:0.28.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@esbuild/freebsd-arm64@npm:0.28.2",
+        "version": "0.28.2",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "freebsd"
+          ]
+        }
+      }
+    },
+    "@esbuild/freebsd-x64@npm:0.28.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@esbuild/freebsd-x64@npm:0.28.2",
+        "version": "0.28.2",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "freebsd"
+          ]
+        }
+      }
+    },
+    "@esbuild/linux-arm@npm:0.28.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@esbuild/linux-arm@npm:0.28.2",
+        "version": "0.28.2",
+        "requirements": {
+          "cpu": [
+            "arm"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@esbuild/linux-arm64@npm:0.28.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@esbuild/linux-arm64@npm:0.28.2",
+        "version": "0.28.2",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@esbuild/linux-ia32@npm:0.28.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@esbuild/linux-ia32@npm:0.28.2",
+        "version": "0.28.2",
+        "requirements": {
+          "cpu": [
+            "ia32"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@esbuild/linux-loong64@npm:0.28.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@esbuild/linux-loong64@npm:0.28.2",
+        "version": "0.28.2",
+        "requirements": {
+          "cpu": [
+            "loong64"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@esbuild/linux-mips64el@npm:0.28.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@esbuild/linux-mips64el@npm:0.28.2",
+        "version": "0.28.2",
+        "requirements": {
+          "cpu": [
+            "mips64el"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@esbuild/linux-ppc64@npm:0.28.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@esbuild/linux-ppc64@npm:0.28.2",
+        "version": "0.28.2",
+        "requirements": {
+          "cpu": [
+            "ppc64"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@esbuild/linux-riscv64@npm:0.28.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@esbuild/linux-riscv64@npm:0.28.2",
+        "version": "0.28.2",
+        "requirements": {
+          "cpu": [
+            "riscv64"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@esbuild/linux-s390x@npm:0.28.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@esbuild/linux-s390x@npm:0.28.2",
+        "version": "0.28.2",
+        "requirements": {
+          "cpu": [
+            "s390x"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@esbuild/linux-x64@npm:0.28.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@esbuild/linux-x64@npm:0.28.2",
+        "version": "0.28.2",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@esbuild/netbsd-arm64@npm:0.28.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@esbuild/netbsd-arm64@npm:0.28.2",
+        "version": "0.28.2",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "netbsd"
+          ]
+        }
+      }
+    },
+    "@esbuild/netbsd-x64@npm:0.28.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@esbuild/netbsd-x64@npm:0.28.2",
+        "version": "0.28.2",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "netbsd"
+          ]
+        }
+      }
+    },
+    "@esbuild/openbsd-arm64@npm:0.28.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@esbuild/openbsd-arm64@npm:0.28.2",
+        "version": "0.28.2",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "openbsd"
+          ]
+        }
+      }
+    },
+    "@esbuild/openbsd-x64@npm:0.28.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@esbuild/openbsd-x64@npm:0.28.2",
+        "version": "0.28.2",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "openbsd"
+          ]
+        }
+      }
+    },
+    "@esbuild/openharmony-arm64@npm:0.28.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@esbuild/openharmony-arm64@npm:0.28.2",
+        "version": "0.28.2",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "openharmony"
+          ]
+        }
+      }
+    },
+    "@esbuild/sunos-x64@npm:0.28.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@esbuild/sunos-x64@npm:0.28.2",
+        "version": "0.28.2",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "sunos"
+          ]
+        }
+      }
+    },
+    "@esbuild/win32-arm64@npm:0.28.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@esbuild/win32-arm64@npm:0.28.2",
+        "version": "0.28.2",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "win32"
+          ]
+        }
+      }
+    },
+    "@esbuild/win32-ia32@npm:0.28.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@esbuild/win32-ia32@npm:0.28.2",
+        "version": "0.28.2",
+        "requirements": {
+          "cpu": [
+            "ia32"
+          ],
+          "os": [
+            "win32"
+          ]
+        }
+      }
+    },
+    "@esbuild/win32-x64@npm:0.28.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@esbuild/win32-x64@npm:0.28.2",
+        "version": "0.28.2",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "win32"
+          ]
+        }
+      }
+    },
+    "@loaderkit/resolve@npm:^1.0.2": {
+      "checksum": "4e8b77a4bb739620c96354861382316c1be733ef6f18c9012009e962f6391788fc0c9a4ba1339d84e7a1cc39e99382d7330e5602bcc50e2ec15c0c809cc3875d",
+      "resolution": {
+        "resolution": "@loaderkit/resolve@npm:1.0.6",
+        "version": "1.0.6",
+        "dependencies": {
+          "@braidai/lang": "^1.0.0"
+        }
+      }
+    },
+    "@napi-rs/wasm-runtime@npm:1.1.6": {
+      "checksum": "04a90ac932a4a0f90b72ca95707e854bde5cd0911f9fd0d5092943acd13d692555524cfba28d0e8ce965b21582135938fa3e9e48ca6f4565d578b385334b4824",
+      "resolution": {
+        "resolution": "@napi-rs/wasm-runtime@npm:1.1.6",
+        "version": "1.1.6",
+        "dependencies": {
+          "@tybys/wasm-util": "^0.10.3"
+        },
+        "peerDependencies": {
+          "@emnapi/core": "^1.7.1",
+          "@emnapi/runtime": "^1.7.1"
+        }
+      }
+    },
+    "@oxfmt/binding-android-arm-eabi@npm:0.62.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxfmt/binding-android-arm-eabi@npm:0.62.0",
+        "version": "0.62.0",
+        "requirements": {
+          "cpu": [
+            "arm"
+          ],
+          "os": [
+            "android"
+          ]
+        }
+      }
+    },
+    "@oxfmt/binding-android-arm64@npm:0.62.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxfmt/binding-android-arm64@npm:0.62.0",
+        "version": "0.62.0",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "android"
+          ]
+        }
+      }
+    },
+    "@oxfmt/binding-darwin-arm64@npm:0.62.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxfmt/binding-darwin-arm64@npm:0.62.0",
+        "version": "0.62.0",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "darwin"
+          ]
+        }
+      }
+    },
+    "@oxfmt/binding-darwin-x64@npm:0.62.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxfmt/binding-darwin-x64@npm:0.62.0",
+        "version": "0.62.0",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "darwin"
+          ]
+        }
+      }
+    },
+    "@oxfmt/binding-freebsd-x64@npm:0.62.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxfmt/binding-freebsd-x64@npm:0.62.0",
+        "version": "0.62.0",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "freebsd"
+          ]
+        }
+      }
+    },
+    "@oxfmt/binding-linux-arm-gnueabihf@npm:0.62.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxfmt/binding-linux-arm-gnueabihf@npm:0.62.0",
+        "version": "0.62.0",
+        "requirements": {
+          "cpu": [
+            "arm"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@oxfmt/binding-linux-arm-musleabihf@npm:0.62.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxfmt/binding-linux-arm-musleabihf@npm:0.62.0",
+        "version": "0.62.0",
+        "requirements": {
+          "cpu": [
+            "arm"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@oxfmt/binding-linux-arm64-gnu@npm:0.62.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxfmt/binding-linux-arm64-gnu@npm:0.62.0",
+        "version": "0.62.0",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "glibc"
+          ]
+        }
+      }
+    },
+    "@oxfmt/binding-linux-arm64-musl@npm:0.62.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxfmt/binding-linux-arm64-musl@npm:0.62.0",
+        "version": "0.62.0",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "musl"
+          ]
+        }
+      }
+    },
+    "@oxfmt/binding-linux-ppc64-gnu@npm:0.62.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxfmt/binding-linux-ppc64-gnu@npm:0.62.0",
+        "version": "0.62.0",
+        "requirements": {
+          "cpu": [
+            "ppc64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "glibc"
+          ]
+        }
+      }
+    },
+    "@oxfmt/binding-linux-riscv64-gnu@npm:0.62.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxfmt/binding-linux-riscv64-gnu@npm:0.62.0",
+        "version": "0.62.0",
+        "requirements": {
+          "cpu": [
+            "riscv64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "glibc"
+          ]
+        }
+      }
+    },
+    "@oxfmt/binding-linux-riscv64-musl@npm:0.62.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxfmt/binding-linux-riscv64-musl@npm:0.62.0",
+        "version": "0.62.0",
+        "requirements": {
+          "cpu": [
+            "riscv64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "musl"
+          ]
+        }
+      }
+    },
+    "@oxfmt/binding-linux-s390x-gnu@npm:0.62.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxfmt/binding-linux-s390x-gnu@npm:0.62.0",
+        "version": "0.62.0",
+        "requirements": {
+          "cpu": [
+            "s390x"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "glibc"
+          ]
+        }
+      }
+    },
+    "@oxfmt/binding-linux-x64-gnu@npm:0.62.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxfmt/binding-linux-x64-gnu@npm:0.62.0",
+        "version": "0.62.0",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "glibc"
+          ]
+        }
+      }
+    },
+    "@oxfmt/binding-linux-x64-musl@npm:0.62.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxfmt/binding-linux-x64-musl@npm:0.62.0",
+        "version": "0.62.0",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "musl"
+          ]
+        }
+      }
+    },
+    "@oxfmt/binding-openharmony-arm64@npm:0.62.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxfmt/binding-openharmony-arm64@npm:0.62.0",
+        "version": "0.62.0",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "openharmony"
+          ]
+        }
+      }
+    },
+    "@oxfmt/binding-win32-arm64-msvc@npm:0.62.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxfmt/binding-win32-arm64-msvc@npm:0.62.0",
+        "version": "0.62.0",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "win32"
+          ]
+        }
+      }
+    },
+    "@oxfmt/binding-win32-ia32-msvc@npm:0.62.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxfmt/binding-win32-ia32-msvc@npm:0.62.0",
+        "version": "0.62.0",
+        "requirements": {
+          "cpu": [
+            "ia32"
+          ],
+          "os": [
+            "win32"
+          ]
+        }
+      }
+    },
+    "@oxfmt/binding-win32-x64-msvc@npm:0.62.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxfmt/binding-win32-x64-msvc@npm:0.62.0",
+        "version": "0.62.0",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "win32"
+          ]
+        }
+      }
+    },
+    "@oxlint-tsgolint/darwin-arm64@npm:7.0.2001": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxlint-tsgolint/darwin-arm64@npm:7.0.2001",
+        "version": "7.0.2001",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "darwin"
+          ]
+        }
+      }
+    },
+    "@oxlint-tsgolint/darwin-x64@npm:7.0.2001": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxlint-tsgolint/darwin-x64@npm:7.0.2001",
+        "version": "7.0.2001",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "darwin"
+          ]
+        }
+      }
+    },
+    "@oxlint-tsgolint/linux-arm64@npm:7.0.2001": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxlint-tsgolint/linux-arm64@npm:7.0.2001",
+        "version": "7.0.2001",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@oxlint-tsgolint/linux-x64@npm:7.0.2001": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxlint-tsgolint/linux-x64@npm:7.0.2001",
+        "version": "7.0.2001",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@oxlint-tsgolint/win32-arm64@npm:7.0.2001": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxlint-tsgolint/win32-arm64@npm:7.0.2001",
+        "version": "7.0.2001",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "win32"
+          ]
+        }
+      }
+    },
+    "@oxlint-tsgolint/win32-x64@npm:7.0.2001": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxlint-tsgolint/win32-x64@npm:7.0.2001",
+        "version": "7.0.2001",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "win32"
+          ]
+        }
+      }
+    },
+    "@oxlint/binding-android-arm-eabi@npm:1.78.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxlint/binding-android-arm-eabi@npm:1.78.0",
+        "version": "1.78.0",
+        "requirements": {
+          "cpu": [
+            "arm"
+          ],
+          "os": [
+            "android"
+          ]
+        }
+      }
+    },
+    "@oxlint/binding-android-arm64@npm:1.78.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxlint/binding-android-arm64@npm:1.78.0",
+        "version": "1.78.0",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "android"
+          ]
+        }
+      }
+    },
+    "@oxlint/binding-darwin-arm64@npm:1.78.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxlint/binding-darwin-arm64@npm:1.78.0",
+        "version": "1.78.0",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "darwin"
+          ]
+        }
+      }
+    },
+    "@oxlint/binding-darwin-x64@npm:1.78.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxlint/binding-darwin-x64@npm:1.78.0",
+        "version": "1.78.0",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "darwin"
+          ]
+        }
+      }
+    },
+    "@oxlint/binding-freebsd-x64@npm:1.78.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxlint/binding-freebsd-x64@npm:1.78.0",
+        "version": "1.78.0",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "freebsd"
+          ]
+        }
+      }
+    },
+    "@oxlint/binding-linux-arm-gnueabihf@npm:1.78.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxlint/binding-linux-arm-gnueabihf@npm:1.78.0",
+        "version": "1.78.0",
+        "requirements": {
+          "cpu": [
+            "arm"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@oxlint/binding-linux-arm-musleabihf@npm:1.78.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxlint/binding-linux-arm-musleabihf@npm:1.78.0",
+        "version": "1.78.0",
+        "requirements": {
+          "cpu": [
+            "arm"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@oxlint/binding-linux-arm64-gnu@npm:1.78.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxlint/binding-linux-arm64-gnu@npm:1.78.0",
+        "version": "1.78.0",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "glibc"
+          ]
+        }
+      }
+    },
+    "@oxlint/binding-linux-arm64-musl@npm:1.78.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxlint/binding-linux-arm64-musl@npm:1.78.0",
+        "version": "1.78.0",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "musl"
+          ]
+        }
+      }
+    },
+    "@oxlint/binding-linux-ppc64-gnu@npm:1.78.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxlint/binding-linux-ppc64-gnu@npm:1.78.0",
+        "version": "1.78.0",
+        "requirements": {
+          "cpu": [
+            "ppc64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "glibc"
+          ]
+        }
+      }
+    },
+    "@oxlint/binding-linux-riscv64-gnu@npm:1.78.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxlint/binding-linux-riscv64-gnu@npm:1.78.0",
+        "version": "1.78.0",
+        "requirements": {
+          "cpu": [
+            "riscv64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "glibc"
+          ]
+        }
+      }
+    },
+    "@oxlint/binding-linux-riscv64-musl@npm:1.78.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxlint/binding-linux-riscv64-musl@npm:1.78.0",
+        "version": "1.78.0",
+        "requirements": {
+          "cpu": [
+            "riscv64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "musl"
+          ]
+        }
+      }
+    },
+    "@oxlint/binding-linux-s390x-gnu@npm:1.78.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxlint/binding-linux-s390x-gnu@npm:1.78.0",
+        "version": "1.78.0",
+        "requirements": {
+          "cpu": [
+            "s390x"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "glibc"
+          ]
+        }
+      }
+    },
+    "@oxlint/binding-linux-x64-gnu@npm:1.78.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxlint/binding-linux-x64-gnu@npm:1.78.0",
+        "version": "1.78.0",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "glibc"
+          ]
+        }
+      }
+    },
+    "@oxlint/binding-linux-x64-musl@npm:1.78.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxlint/binding-linux-x64-musl@npm:1.78.0",
+        "version": "1.78.0",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "musl"
+          ]
+        }
+      }
+    },
+    "@oxlint/binding-openharmony-arm64@npm:1.78.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxlint/binding-openharmony-arm64@npm:1.78.0",
+        "version": "1.78.0",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "openharmony"
+          ]
+        }
+      }
+    },
+    "@oxlint/binding-win32-arm64-msvc@npm:1.78.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxlint/binding-win32-arm64-msvc@npm:1.78.0",
+        "version": "1.78.0",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "win32"
+          ]
+        }
+      }
+    },
+    "@oxlint/binding-win32-ia32-msvc@npm:1.78.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxlint/binding-win32-ia32-msvc@npm:1.78.0",
+        "version": "1.78.0",
+        "requirements": {
+          "cpu": [
+            "ia32"
+          ],
+          "os": [
+            "win32"
+          ]
+        }
+      }
+    },
+    "@oxlint/binding-win32-x64-msvc@npm:1.78.0": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@oxlint/binding-win32-x64-msvc@npm:1.78.0",
+        "version": "1.78.0",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "win32"
+          ]
+        }
+      }
+    },
+    "@rsbuild/core@npm:~2.1.4": {
+      "checksum": "2f1f8f478165fa1f9e76bfa8f7c431a550bb0c4bb171bc1cba8f8e6041178d274faa77109edf798dda8e95aca07e3f9994c55245dd7fceaf2229063ec0dc8211",
+      "resolution": {
+        "resolution": "@rsbuild/core@npm:2.1.11",
+        "version": "2.1.11",
+        "dependencies": {
+          "@rspack/core": "~2.1.9",
+          "@swc/helpers": "^0.5.23"
+        },
+        "peerDependencies": {
+          "core-js": ">= 3.0.0"
+        },
+        "optionalPeerDependencies": [
+          "core-js"
+        ]
+      }
+    },
+    "@rslib/core@npm:^0.23.2": {
+      "checksum": "222685410f2690a9495f4f6b6b193c5c191499d67f0f89e346aa783f4518aeca385a39d8e388f8bd23b004984338036ef801c8675225c271042157941c2fa461",
+      "resolution": {
+        "resolution": "@rslib/core@npm:0.23.2",
+        "version": "0.23.2",
+        "dependencies": {
+          "@rsbuild/core": "~2.1.4",
+          "rsbuild-plugin-dts": "0.23.2"
+        },
+        "peerDependencies": {
+          "@microsoft/api-extractor": "^7",
+          "typescript": "^5 || ^6 || ^7.0.1-0"
+        },
+        "optionalPeerDependencies": [
+          "@microsoft/api-extractor",
+          "typescript"
+        ]
+      }
+    },
+    "@rspack/binding@npm:2.1.9": {
+      "checksum": "56d2ed85c6e72087823f3156c34427167e965697ce13f2dc2da6580d08a47d79b29edafeeac2d1b8bc5692f7068c9c072648f12b7403c750a2f661b8eeccca13",
+      "resolution": {
+        "resolution": "@rspack/binding@npm:2.1.9",
+        "version": "2.1.9",
+        "dependencies": {
+          "@rspack/binding-darwin-arm64": "2.1.9",
+          "@rspack/binding-darwin-x64": "2.1.9",
+          "@rspack/binding-linux-arm64-gnu": "2.1.9",
+          "@rspack/binding-linux-arm64-musl": "2.1.9",
+          "@rspack/binding-linux-ppc64-gnu": "2.1.9",
+          "@rspack/binding-linux-riscv64-gnu": "2.1.9",
+          "@rspack/binding-linux-riscv64-musl": "2.1.9",
+          "@rspack/binding-linux-s390x-gnu": "2.1.9",
+          "@rspack/binding-linux-x64-gnu": "2.1.9",
+          "@rspack/binding-linux-x64-musl": "2.1.9",
+          "@rspack/binding-wasm32-wasi": "2.1.9",
+          "@rspack/binding-win32-arm64-msvc": "2.1.9",
+          "@rspack/binding-win32-ia32-msvc": "2.1.9",
+          "@rspack/binding-win32-x64-msvc": "2.1.9"
+        },
+        "optionalDependencies": [
+          "@rspack/binding-darwin-arm64",
+          "@rspack/binding-darwin-x64",
+          "@rspack/binding-linux-arm64-gnu",
+          "@rspack/binding-linux-arm64-musl",
+          "@rspack/binding-linux-ppc64-gnu",
+          "@rspack/binding-linux-riscv64-gnu",
+          "@rspack/binding-linux-riscv64-musl",
+          "@rspack/binding-linux-s390x-gnu",
+          "@rspack/binding-linux-x64-gnu",
+          "@rspack/binding-linux-x64-musl",
+          "@rspack/binding-wasm32-wasi",
+          "@rspack/binding-win32-arm64-msvc",
+          "@rspack/binding-win32-ia32-msvc",
+          "@rspack/binding-win32-x64-msvc"
+        ]
+      }
+    },
+    "@rspack/binding-darwin-arm64@npm:2.1.9": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@rspack/binding-darwin-arm64@npm:2.1.9",
+        "version": "2.1.9",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "darwin"
+          ]
+        }
+      }
+    },
+    "@rspack/binding-darwin-x64@npm:2.1.9": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@rspack/binding-darwin-x64@npm:2.1.9",
+        "version": "2.1.9",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "darwin"
+          ]
+        }
+      }
+    },
+    "@rspack/binding-linux-arm64-gnu@npm:2.1.9": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@rspack/binding-linux-arm64-gnu@npm:2.1.9",
+        "version": "2.1.9",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "glibc"
+          ]
+        }
+      }
+    },
+    "@rspack/binding-linux-arm64-musl@npm:2.1.9": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@rspack/binding-linux-arm64-musl@npm:2.1.9",
+        "version": "2.1.9",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "musl"
+          ]
+        }
+      }
+    },
+    "@rspack/binding-linux-ppc64-gnu@npm:2.1.9": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@rspack/binding-linux-ppc64-gnu@npm:2.1.9",
+        "version": "2.1.9",
+        "requirements": {
+          "cpu": [
+            "ppc64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "glibc"
+          ]
+        }
+      }
+    },
+    "@rspack/binding-linux-riscv64-gnu@npm:2.1.9": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@rspack/binding-linux-riscv64-gnu@npm:2.1.9",
+        "version": "2.1.9",
+        "requirements": {
+          "cpu": [
+            "riscv64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "glibc"
+          ]
+        }
+      }
+    },
+    "@rspack/binding-linux-riscv64-musl@npm:2.1.9": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@rspack/binding-linux-riscv64-musl@npm:2.1.9",
+        "version": "2.1.9",
+        "requirements": {
+          "cpu": [
+            "riscv64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "musl"
+          ]
+        }
+      }
+    },
+    "@rspack/binding-linux-s390x-gnu@npm:2.1.9": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@rspack/binding-linux-s390x-gnu@npm:2.1.9",
+        "version": "2.1.9",
+        "requirements": {
+          "cpu": [
+            "s390x"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "glibc"
+          ]
+        }
+      }
+    },
+    "@rspack/binding-linux-x64-gnu@npm:2.1.9": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@rspack/binding-linux-x64-gnu@npm:2.1.9",
+        "version": "2.1.9",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "glibc"
+          ]
+        }
+      }
+    },
+    "@rspack/binding-linux-x64-musl@npm:2.1.9": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@rspack/binding-linux-x64-musl@npm:2.1.9",
+        "version": "2.1.9",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "musl"
+          ]
+        }
+      }
+    },
+    "@rspack/binding-wasm32-wasi@npm:2.1.9": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@rspack/binding-wasm32-wasi@npm:2.1.9",
+        "version": "2.1.9",
+        "requirements": {
+          "cpu": [
+            "wasm32"
+          ]
+        },
+        "dependencies": {
+          "@emnapi/core": "1.11.3",
+          "@emnapi/runtime": "1.11.3",
+          "@napi-rs/wasm-runtime": "1.1.6"
+        }
+      }
+    },
+    "@rspack/binding-win32-arm64-msvc@npm:2.1.9": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@rspack/binding-win32-arm64-msvc@npm:2.1.9",
+        "version": "2.1.9",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "win32"
+          ]
+        }
+      }
+    },
+    "@rspack/binding-win32-ia32-msvc@npm:2.1.9": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@rspack/binding-win32-ia32-msvc@npm:2.1.9",
+        "version": "2.1.9",
+        "requirements": {
+          "cpu": [
+            "ia32"
+          ],
+          "os": [
+            "win32"
+          ]
+        }
+      }
+    },
+    "@rspack/binding-win32-x64-msvc@npm:2.1.9": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@rspack/binding-win32-x64-msvc@npm:2.1.9",
+        "version": "2.1.9",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "win32"
+          ]
+        }
+      }
+    },
+    "@rspack/core@npm:~2.1.9": {
+      "checksum": "4fe76d7224cc4d0342a5d0d2ddb57c05f48879261d7bd99b22e4d020d16f16f8dfd8c4e4fc4c38f80196e4752027353bc9a4590e0d2ff42cf944e57833d8e487",
+      "resolution": {
+        "resolution": "@rspack/core@npm:2.1.9",
+        "version": "2.1.9",
+        "dependencies": {
+          "@rspack/binding": "2.1.9"
+        },
+        "peerDependencies": {
+          "@module-federation/runtime-tools": "^0.24.1 || ^2.0.0",
+          "@swc/helpers": "^0.5.23"
+        },
+        "optionalPeerDependencies": [
+          "@module-federation/runtime-tools",
+          "@swc/helpers"
+        ]
+      }
+    },
+    "@sindresorhus/is@npm:^4.6.0": {
+      "checksum": "30ca2fcc28c4186b081bbc58e0671649bb3cab9691d507dc60128cbf5bea69a8dd5e9dc5c08eb96902a408ce802e249a0df5d6a58d1513171329549dd7615329",
+      "resolution": {
+        "resolution": "@sindresorhus/is@npm:4.6.0",
+        "version": "4.6.0"
+      }
+    },
+    "@swc/helpers@npm:^0.5.23": {
+      "checksum": "7a78fdb7131b93c030554a3c9964dbcad07b079fcd44a4945baa309e6b266dfdf4690afa7bb2e34517d5f99fd036d0dd00b959f557cf9cf44a8cf896c0d7ad0d",
+      "resolution": {
+        "resolution": "@swc/helpers@npm:0.5.23",
+        "version": "0.5.23",
+        "dependencies": {
+          "tslib": "^2.8.0"
+        }
+      }
+    },
+    "@tybys/wasm-util@npm:^0.10.3": {
+      "checksum": "8b249d0dd3ebf1bcdcf342f544befeda58908f275cf9fe71ac95570d4ea1deada886161b7e231afbfc539740ad1e68161685f902e075dd24ac811f04ca795974",
+      "resolution": {
+        "resolution": "@tybys/wasm-util@npm:0.10.3",
+        "version": "0.10.3",
+        "dependencies": {
+          "tslib": "^2.4.0"
+        }
+      }
+    },
+    "@types/node@npm:^26.2.0": {
+      "checksum": "13f2f263b4ad6ab888f13be43cfa20a309ae3568e200310d0172ea33a6c545983c33677fcb6407dbdb2f5220b1f379c242e7b22842ce64bdc7779867c642c758",
+      "resolution": {
+        "resolution": "@types/node@npm:26.2.0",
+        "version": "26.2.0",
+        "dependencies": {
+          "undici-types": "~8.3.0"
+        }
+      }
+    },
+    "@typescript/typescript-aix-ppc64@npm:7.0.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-aix-ppc64@npm:7.0.2",
+        "version": "7.0.2",
+        "requirements": {
+          "cpu": [
+            "ppc64"
+          ],
+          "os": [
+            "aix"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-darwin-arm64@npm:7.0.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-darwin-arm64@npm:7.0.2",
+        "version": "7.0.2",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "darwin"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-darwin-x64@npm:7.0.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-darwin-x64@npm:7.0.2",
+        "version": "7.0.2",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "darwin"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-freebsd-arm64@npm:7.0.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-freebsd-arm64@npm:7.0.2",
+        "version": "7.0.2",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "freebsd"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-freebsd-x64@npm:7.0.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-freebsd-x64@npm:7.0.2",
+        "version": "7.0.2",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "freebsd"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-linux-arm@npm:7.0.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-linux-arm@npm:7.0.2",
+        "version": "7.0.2",
+        "requirements": {
+          "cpu": [
+            "arm"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-linux-arm64@npm:7.0.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-linux-arm64@npm:7.0.2",
+        "version": "7.0.2",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-linux-loong64@npm:7.0.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-linux-loong64@npm:7.0.2",
+        "version": "7.0.2",
+        "requirements": {
+          "cpu": [
+            "loong64"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-linux-mips64el@npm:7.0.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-linux-mips64el@npm:7.0.2",
+        "version": "7.0.2",
+        "requirements": {
+          "cpu": [
+            "mips64el"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-linux-ppc64@npm:7.0.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-linux-ppc64@npm:7.0.2",
+        "version": "7.0.2",
+        "requirements": {
+          "cpu": [
+            "ppc64"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-linux-riscv64@npm:7.0.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-linux-riscv64@npm:7.0.2",
+        "version": "7.0.2",
+        "requirements": {
+          "cpu": [
+            "riscv64"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-linux-s390x@npm:7.0.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-linux-s390x@npm:7.0.2",
+        "version": "7.0.2",
+        "requirements": {
+          "cpu": [
+            "s390x"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-linux-x64@npm:7.0.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-linux-x64@npm:7.0.2",
+        "version": "7.0.2",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "linux"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-netbsd-arm64@npm:7.0.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-netbsd-arm64@npm:7.0.2",
+        "version": "7.0.2",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "netbsd"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-netbsd-x64@npm:7.0.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-netbsd-x64@npm:7.0.2",
+        "version": "7.0.2",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "netbsd"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-openbsd-arm64@npm:7.0.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-openbsd-arm64@npm:7.0.2",
+        "version": "7.0.2",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "openbsd"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-openbsd-x64@npm:7.0.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-openbsd-x64@npm:7.0.2",
+        "version": "7.0.2",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "openbsd"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-sunos-x64@npm:7.0.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-sunos-x64@npm:7.0.2",
+        "version": "7.0.2",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "sunos"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-win32-arm64@npm:7.0.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-win32-arm64@npm:7.0.2",
+        "version": "7.0.2",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "win32"
+          ]
+        }
+      }
+    },
+    "@typescript/typescript-win32-x64@npm:7.0.2": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@typescript/typescript-win32-x64@npm:7.0.2",
+        "version": "7.0.2",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "win32"
+          ]
+        }
+      }
+    },
+    "ansi-escapes@npm:^7.0.0": {
+      "checksum": "9ab979991eda80292f70fa17c5677b912916f583034b81a4cffe02f0afa6cdbd8d3fed764ed07201c13292f07938522ee4460a8051ed21692dbf7af3bca9a3cf",
+      "resolution": {
+        "resolution": "ansi-escapes@npm:7.3.0",
+        "version": "7.3.0",
+        "dependencies": {
+          "environment": "^1.0.0"
+        }
+      }
+    },
+    "ansi-regex@npm:^5.0.1": {
+      "checksum": "4f7a4b8540759c4b9b6fc51285a7ecbeddbe06679ab31bc060e474aaf9e9e353848f0599bfa530f39eb769fb339e286aa56466aafeb744ca62a03fbbe13672a4",
+      "resolution": {
+        "resolution": "ansi-regex@npm:5.0.1",
+        "version": "5.0.1"
+      }
+    },
+    "ansi-regex@npm:^6.1.0": {
+      "checksum": "2575a8dca85ae870440dab4fa2231be6bf5056fcb7f1e94aebca07f510b37b51638de89caec07efad29f5b7a08e6bc9ca5b49da3d45a673d6fc0eefca5756e22",
+      "resolution": {
+        "resolution": "ansi-regex@npm:6.2.2",
+        "version": "6.2.2"
+      }
+    },
+    "ansi-styles@npm:^4.0.0, ansi-styles@npm:^4.1.0": {
+      "checksum": "9f3e0a0209e1a56154b5a2e24dc106af31a60a59f72e6cb379ef320489568ca12e42a18d3718920057e33723167b705327947355ad7f153301835783cccb6a9b",
+      "resolution": {
+        "resolution": "ansi-styles@npm:4.3.0",
+        "version": "4.3.0",
+        "dependencies": {
+          "color-convert": "^2.0.1"
+        }
+      }
+    },
+    "any-promise@npm:^1.0.0": {
+      "checksum": "f88da81f972883e8c097d6c72fd0a0000c85d797ddaf55076f61be1285efdba5a4eabbd1c7fe4a5ba65a4091eff66121a89f98234ef17209f814a40ebcccfed9",
+      "resolution": {
+        "resolution": "any-promise@npm:1.3.0",
+        "version": "1.3.0"
+      }
+    },
+    "chalk@npm:^4.0.0, chalk@npm:^4.1.2": {
+      "checksum": "ad6736083ebacfab07fd0466f0516356e0db5b0070276a79760ef5d4898a5672420b6b8a665c9de589004b984d21b14914c5e933378fea08bb133df6fc180fef",
+      "resolution": {
+        "resolution": "chalk@npm:4.1.2",
+        "version": "4.1.2",
+        "dependencies": {
+          "ansi-styles": "^4.1.0",
+          "supports-color": "^7.1.0"
+        }
+      }
+    },
+    "chalk@npm:^5.4.1": {
+      "checksum": "fdfa590b29e8f89bda95bde45128eda3191e9bd73a7ccdb1611c24a828c1c5060ada07f40dfb5ac6675622b3f7a441c37c601b247b7ade94c2d3acb4bf066083",
+      "resolution": {
+        "resolution": "chalk@npm:5.6.2",
+        "version": "5.6.2"
+      }
+    },
+    "char-regex@npm:^1.0.2": {
+      "checksum": "85c072daa4475c6d1a398ec88da35747c2542b59b61c3f625faa81a42ec2fea93e44a9eeaf2665bde019d99be5c3c569a28b015ea05f0f697ba8e72e029cd3e0",
+      "resolution": {
+        "resolution": "char-regex@npm:1.0.2",
+        "version": "1.0.2"
+      }
+    },
+    "cjs-module-lexer@npm:^1.2.3": {
+      "checksum": "2d2dd680e449e990cb21ff6ea187ca9557fb9ed55f062dc75818d41dacbc73034b8bad39bf55dbcd9f7495df6029e16a25c45f7777a01a070c93bcce5ecc1e24",
+      "resolution": {
+        "resolution": "cjs-module-lexer@npm:1.4.3",
+        "version": "1.4.3"
+      }
+    },
+    "cli-highlight@npm:^2.1.11": {
+      "checksum": "e261b525be424186de19f4a1427f9560e896365e060e9b095bf184682c7e7e5f1acc1825b9d16363a1fb02ff1d091c97ee10770243a24631129d5b23704ee85a",
+      "resolution": {
+        "resolution": "cli-highlight@npm:2.1.11",
+        "version": "2.1.11",
+        "dependencies": {
+          "chalk": "^4.0.0",
+          "highlight.js": "^10.7.1",
+          "mz": "^2.4.0",
+          "parse5": "^5.1.1",
+          "parse5-htmlparser2-tree-adapter": "^6.0.0",
+          "yargs": "^16.0.0"
+        }
+      }
+    },
+    "cli-table3@npm:^0.6.3, cli-table3@npm:^0.6.5": {
+      "checksum": "6c79755d791337ba6af1780fe2779b256c2fd772d1cbf356d59b7ff19ac5afdef81207c1de6f42fe34e94a83f65c785730ca12c39daa30bb55aa0deeb0447053",
+      "resolution": {
+        "resolution": "cli-table3@npm:0.6.5",
+        "version": "0.6.5",
+        "dependencies": {
+          "@colors/colors": "1.5.0",
+          "string-width": "^4.2.0"
+        },
+        "optionalDependencies": [
+          "@colors/colors"
+        ]
+      }
+    },
+    "cliui@npm:^7.0.2": {
+      "checksum": "ba53a01119effff06a8bb075e62be106e36c1df199d8dfe956bd766e54109d2fdb65b91b3c518aa3f8e59df4dc865f00e417e2a42a30a17abb3256837f43bddf",
+      "resolution": {
+        "resolution": "cliui@npm:7.0.4",
+        "version": "7.0.4",
+        "dependencies": {
+          "string-width": "^4.2.0",
+          "strip-ansi": "^6.0.0",
+          "wrap-ansi": "^7.0.0"
+        }
+      }
+    },
+    "color-convert@npm:^2.0.1": {
+      "checksum": "ac7ed8228965dfb2339dc59cd47fe39c4c2431280eb9fdeb42cd3b328193ba2810e579620bf1d89803b6036b6262cef6a1b3c139fa6c4f9be5fd7c3e5654cbf2",
+      "resolution": {
+        "resolution": "color-convert@npm:2.0.1",
+        "version": "2.0.1",
+        "dependencies": {
+          "color-name": "~1.1.4"
+        }
+      }
+    },
+    "color-name@npm:~1.1.4": {
+      "checksum": "f5600c65df3ab0e9f087134d7f1e6424b73ac8428a2cad2f5d6c4e7c29fe90c6d83a4bcbddf35bcd217c8d9f02388d891e52c83be8a871133a8177c32fe8cd4e",
+      "resolution": {
+        "resolution": "color-name@npm:1.1.4",
+        "version": "1.1.4"
+      }
+    },
+    "commander@npm:^10.0.1": {
+      "checksum": "3efde5d88bd60944fab20a1133a7ac5597dfc8bec14a15971a19ef5562c26a36ad1e1e2918c03524bfef69c668ab39060bbc7edf9bc865baf1c598ef99e8ec03",
+      "resolution": {
+        "resolution": "commander@npm:10.0.1",
+        "version": "10.0.1"
+      }
+    },
+    "emoji-regex@npm:^8.0.0": {
+      "checksum": "c279219b867ccc4e405539693b120d99633a2d6a4ef3024b6b1648c9d00b59950361c672e8011b5a3df86f0dfcc8b964b163d9557f70fd70d206a0fd29557c7d",
+      "resolution": {
+        "resolution": "emoji-regex@npm:8.0.0",
+        "version": "8.0.0"
+      }
+    },
+    "emojilib@npm:^2.4.0": {
+      "checksum": "8bbe3458b374b449f8b911f2dd489c5c288103d3f197fb5a58bd3adcd24f48e43a4fc98c8b87374ee023ee1a077e8a27d8ac0dd10245b42426ab32b405fa7ea2",
+      "resolution": {
+        "resolution": "emojilib@npm:2.4.0",
+        "version": "2.4.0"
+      }
+    },
+    "environment@npm:^1.0.0": {
+      "checksum": "1e2f9942c5a0206d9239cad3a18172d6b2c8917285d3cf1a693c44e837a380bae77ee702714bf7e8ff5b32c690ab0ccc64302db113653a9eb442f3877f5e662c",
+      "resolution": {
+        "resolution": "environment@npm:1.1.0",
+        "version": "1.1.0"
+      }
+    },
+    "esbuild@npm:~0.28.0": {
+      "checksum": "e5a111368c03acbc02b2d7cf6bc4046b24efb030e0ee7545b8eb80081c46127f39d6f018bbb1453641aeb2a6c0243d5286423968815613b9e22b7444937f4fa8",
+      "resolution": {
+        "resolution": "esbuild@npm:0.28.2",
+        "version": "0.28.2",
+        "dependencies": {
+          "@esbuild/aix-ppc64": "0.28.2",
+          "@esbuild/android-arm": "0.28.2",
+          "@esbuild/android-arm64": "0.28.2",
+          "@esbuild/android-x64": "0.28.2",
+          "@esbuild/darwin-arm64": "0.28.2",
+          "@esbuild/darwin-x64": "0.28.2",
+          "@esbuild/freebsd-arm64": "0.28.2",
+          "@esbuild/freebsd-x64": "0.28.2",
+          "@esbuild/linux-arm": "0.28.2",
+          "@esbuild/linux-arm64": "0.28.2",
+          "@esbuild/linux-ia32": "0.28.2",
+          "@esbuild/linux-loong64": "0.28.2",
+          "@esbuild/linux-mips64el": "0.28.2",
+          "@esbuild/linux-ppc64": "0.28.2",
+          "@esbuild/linux-riscv64": "0.28.2",
+          "@esbuild/linux-s390x": "0.28.2",
+          "@esbuild/linux-x64": "0.28.2",
+          "@esbuild/netbsd-arm64": "0.28.2",
+          "@esbuild/netbsd-x64": "0.28.2",
+          "@esbuild/openbsd-arm64": "0.28.2",
+          "@esbuild/openbsd-x64": "0.28.2",
+          "@esbuild/openharmony-arm64": "0.28.2",
+          "@esbuild/sunos-x64": "0.28.2",
+          "@esbuild/win32-arm64": "0.28.2",
+          "@esbuild/win32-ia32": "0.28.2",
+          "@esbuild/win32-x64": "0.28.2"
+        },
+        "optionalDependencies": [
+          "@esbuild/aix-ppc64",
+          "@esbuild/android-arm",
+          "@esbuild/android-arm64",
+          "@esbuild/android-x64",
+          "@esbuild/darwin-arm64",
+          "@esbuild/darwin-x64",
+          "@esbuild/freebsd-arm64",
+          "@esbuild/freebsd-x64",
+          "@esbuild/linux-arm",
+          "@esbuild/linux-arm64",
+          "@esbuild/linux-ia32",
+          "@esbuild/linux-loong64",
+          "@esbuild/linux-mips64el",
+          "@esbuild/linux-ppc64",
+          "@esbuild/linux-riscv64",
+          "@esbuild/linux-s390x",
+          "@esbuild/linux-x64",
+          "@esbuild/netbsd-arm64",
+          "@esbuild/netbsd-x64",
+          "@esbuild/openbsd-arm64",
+          "@esbuild/openbsd-x64",
+          "@esbuild/openharmony-arm64",
+          "@esbuild/sunos-x64",
+          "@esbuild/win32-arm64",
+          "@esbuild/win32-ia32",
+          "@esbuild/win32-x64"
+        ]
+      }
+    },
+    "escalade@npm:^3.1.1": {
+      "checksum": "f4f2aac845ea084352d0f5c3d0f2d992aaca4855c51dc5404773fd6fed9f38bae48fa24d1752ada2204fcd843acc52507e901dac310e807581fc6311c99a548c",
+      "resolution": {
+        "resolution": "escalade@npm:3.2.0",
+        "version": "3.2.0"
+      }
+    },
+    "fflate@npm:^0.8.3": {
+      "checksum": "d27ca625eb3ed8182640c43a0bd81d1c2df7839c0b7cc148e62561bdf958febe43cd8cd7b832e5447cfbe7b85f49812fe8de0cff7d4e9116da2ab504b3f1f6a4",
+      "resolution": {
+        "resolution": "fflate@npm:0.8.3",
+        "version": "0.8.3"
+      }
+    },
+    "fsevents@npm:~2.3.3": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "fsevents@npm:2.3.3",
+        "version": "2.3.3",
+        "requirements": {
+          "os": [
+            "darwin"
+          ]
+        },
+        "dependencies": {
+          "node-gyp": "*"
+        }
+      }
+    },
+    "get-caller-file@npm:^2.0.5": {
+      "checksum": "35293bb0f07be3b71873aa7c5e3ba8045e0f1a6920342845b45f9397a0b5b894ac500de3204ccca885453b224b06a4598e113e02c48d29be1287830f326b8c0d",
+      "resolution": {
+        "resolution": "get-caller-file@npm:2.0.5",
+        "version": "2.0.5"
+      }
+    },
+    "has-flag@npm:^4.0.0": {
+      "checksum": "73ee54afed2bb44c5694803df1c801c243688ed768d95d58d3076882aebb050da5dca12ef9b8bdd923aefb0eafe29dd3f25e8e42ad83d19e877aca311187764d",
+      "resolution": {
+        "resolution": "has-flag@npm:4.0.0",
+        "version": "4.0.0"
+      }
+    },
+    "highlight.js@npm:^10.7.1": {
+      "checksum": "a799a0252bb5394c645ef2944d0fca432e2f8f2a46cc79746ea3b82aa521fddbe83692d11bcf2cd491fc188fa5f6c5e8ed22870894aa5e5a24bac3d3a2d9265e",
+      "resolution": {
+        "resolution": "highlight.js@npm:10.7.3",
+        "version": "10.7.3"
+      }
+    },
+    "is-fullwidth-code-point@npm:^3.0.0": {
+      "checksum": "859210ade1bfcac9c0dcda521b74b91e07177b8cab5fae8cfbc0c1c9b36deb31276062adab6dbaa3c1c0b61445898ef84c444667d14b9b6185656da02667d273",
+      "resolution": {
+        "resolution": "is-fullwidth-code-point@npm:3.0.0",
+        "version": "3.0.0"
+      }
+    },
+    "lru-cache@npm:^11.0.1": {
+      "checksum": "20175a3ab2f566aac776b9e95132f37c8710f54bd069b4bc132c871f24704f198314870f78e4590e85c3a7c3392734d557b2bb70046c3d71b11ef1c563ffcb7d",
+      "resolution": {
+        "resolution": "lru-cache@npm:11.5.2",
+        "version": "11.5.2"
+      }
+    },
+    "marked@npm:^9.1.2": {
+      "checksum": "482879875d2a0d02eee84e38fce62523e832a732d45b1540be5c2eec211212079e2a66116b3ee2a4f896f528dc7be2e5331674f59de2bc39b5f943eb45d7702f",
+      "resolution": {
+        "resolution": "marked@npm:9.1.6",
+        "version": "9.1.6"
+      }
+    },
+    "marked-terminal@npm:^7.1.0": {
+      "checksum": "fd26432e393f59777b0f2299aea878c3d1999c0cd82d4f35e25dd43dc3af4f32d544fe8152fcea264584dd9246bbf87903bc5e97c056fdb7260c406aff122401",
+      "resolution": {
+        "resolution": "marked-terminal@npm:7.3.0",
+        "version": "7.3.0",
+        "dependencies": {
+          "ansi-escapes": "^7.0.0",
+          "ansi-regex": "^6.1.0",
+          "chalk": "^5.4.1",
+          "cli-highlight": "^2.1.11",
+          "cli-table3": "^0.6.5",
+          "node-emoji": "^2.2.0",
+          "supports-hyperlinks": "^3.1.0"
+        },
+        "peerDependencies": {
+          "marked": ">=1 <16"
+        }
+      }
+    },
+    "mz@npm:^2.4.0": {
+      "checksum": "e4432e37a2f95c42b42354c89c45c5a0e352ffca967cbfb39b316b02c88f1576ae3c33fe63b3aec64333b6c9a929754605cd2a186609e1d408cfbf6258d068f2",
+      "resolution": {
+        "resolution": "mz@npm:2.7.0",
+        "version": "2.7.0",
+        "dependencies": {
+          "any-promise": "^1.0.0",
+          "object-assign": "^4.0.1",
+          "thenify-all": "^1.0.0"
+        }
+      }
+    },
+    "node-emoji@npm:^2.2.0": {
+      "checksum": "2d3621c5f781c286aca434da818bb167bee49358b0012a4e25fce96932717b471f8f55870fa4ecaf6e0879be01d92bfa36a4dc5c7e49d2215af53de257a39088",
+      "resolution": {
+        "resolution": "node-emoji@npm:2.2.0",
+        "version": "2.2.0",
+        "dependencies": {
+          "@sindresorhus/is": "^4.6.0",
+          "char-regex": "^1.0.2",
+          "emojilib": "^2.4.0",
+          "skin-tone": "^2.0.0"
+        }
+      }
+    },
+    "object-assign@npm:^4.0.1": {
+      "checksum": "5bf00a84b915236a196beed90fe99864a69eadedb3d3d70f72a363533a33e1bd301ac6565e5ea6fd03f7eef6e7e8de41c521dd62bc375e63ae8e8880fd3b0602",
+      "resolution": {
+        "resolution": "object-assign@npm:4.1.1",
+        "version": "4.1.1"
+      }
+    },
+    "oxfmt@npm:^0.62.0": {
+      "checksum": "437cbc0215e9bfa91de071b1c8a73aa667b9c2d30c7ddfae5094c5933088cbd504ca53d9313e3ce12fdb177abbaee54306be107ab0938b40c2e904cb96128e84",
+      "resolution": {
+        "resolution": "oxfmt@npm:0.62.0",
+        "version": "0.62.0",
+        "dependencies": {
+          "@oxfmt/binding-android-arm-eabi": "0.62.0",
+          "@oxfmt/binding-android-arm64": "0.62.0",
+          "@oxfmt/binding-darwin-arm64": "0.62.0",
+          "@oxfmt/binding-darwin-x64": "0.62.0",
+          "@oxfmt/binding-freebsd-x64": "0.62.0",
+          "@oxfmt/binding-linux-arm-gnueabihf": "0.62.0",
+          "@oxfmt/binding-linux-arm-musleabihf": "0.62.0",
+          "@oxfmt/binding-linux-arm64-gnu": "0.62.0",
+          "@oxfmt/binding-linux-arm64-musl": "0.62.0",
+          "@oxfmt/binding-linux-ppc64-gnu": "0.62.0",
+          "@oxfmt/binding-linux-riscv64-gnu": "0.62.0",
+          "@oxfmt/binding-linux-riscv64-musl": "0.62.0",
+          "@oxfmt/binding-linux-s390x-gnu": "0.62.0",
+          "@oxfmt/binding-linux-x64-gnu": "0.62.0",
+          "@oxfmt/binding-linux-x64-musl": "0.62.0",
+          "@oxfmt/binding-openharmony-arm64": "0.62.0",
+          "@oxfmt/binding-win32-arm64-msvc": "0.62.0",
+          "@oxfmt/binding-win32-ia32-msvc": "0.62.0",
+          "@oxfmt/binding-win32-x64-msvc": "0.62.0",
+          "tinypool": "2.1.0"
+        },
+        "peerDependencies": {
+          "svelte": "^5.0.0",
+          "vite-plus": "*"
+        },
+        "optionalDependencies": [
+          "@oxfmt/binding-android-arm-eabi",
+          "@oxfmt/binding-android-arm64",
+          "@oxfmt/binding-darwin-arm64",
+          "@oxfmt/binding-darwin-x64",
+          "@oxfmt/binding-freebsd-x64",
+          "@oxfmt/binding-linux-arm-gnueabihf",
+          "@oxfmt/binding-linux-arm-musleabihf",
+          "@oxfmt/binding-linux-arm64-gnu",
+          "@oxfmt/binding-linux-arm64-musl",
+          "@oxfmt/binding-linux-ppc64-gnu",
+          "@oxfmt/binding-linux-riscv64-gnu",
+          "@oxfmt/binding-linux-riscv64-musl",
+          "@oxfmt/binding-linux-s390x-gnu",
+          "@oxfmt/binding-linux-x64-gnu",
+          "@oxfmt/binding-linux-x64-musl",
+          "@oxfmt/binding-openharmony-arm64",
+          "@oxfmt/binding-win32-arm64-msvc",
+          "@oxfmt/binding-win32-ia32-msvc",
+          "@oxfmt/binding-win32-x64-msvc"
+        ],
+        "optionalPeerDependencies": [
+          "svelte",
+          "vite-plus"
+        ]
+      }
+    },
+    "oxlint@npm:^1.77.0": {
+      "checksum": "36d43322d6116bae6a32b85fb7a80b5c46400b890100b3c47f1f474d8a90fd47a3bb9196012973d127b834efddf72a066c03bb58c05ba35964b69757bcf3a35d",
+      "resolution": {
+        "resolution": "oxlint@npm:1.78.0",
+        "version": "1.78.0",
+        "dependencies": {
+          "@oxlint/binding-android-arm-eabi": "1.78.0",
+          "@oxlint/binding-android-arm64": "1.78.0",
+          "@oxlint/binding-darwin-arm64": "1.78.0",
+          "@oxlint/binding-darwin-x64": "1.78.0",
+          "@oxlint/binding-freebsd-x64": "1.78.0",
+          "@oxlint/binding-linux-arm-gnueabihf": "1.78.0",
+          "@oxlint/binding-linux-arm-musleabihf": "1.78.0",
+          "@oxlint/binding-linux-arm64-gnu": "1.78.0",
+          "@oxlint/binding-linux-arm64-musl": "1.78.0",
+          "@oxlint/binding-linux-ppc64-gnu": "1.78.0",
+          "@oxlint/binding-linux-riscv64-gnu": "1.78.0",
+          "@oxlint/binding-linux-riscv64-musl": "1.78.0",
+          "@oxlint/binding-linux-s390x-gnu": "1.78.0",
+          "@oxlint/binding-linux-x64-gnu": "1.78.0",
+          "@oxlint/binding-linux-x64-musl": "1.78.0",
+          "@oxlint/binding-openharmony-arm64": "1.78.0",
+          "@oxlint/binding-win32-arm64-msvc": "1.78.0",
+          "@oxlint/binding-win32-ia32-msvc": "1.78.0",
+          "@oxlint/binding-win32-x64-msvc": "1.78.0"
+        },
+        "peerDependencies": {
+          "oxlint-tsgolint": ">=7.0.2001",
+          "vite-plus": "*"
+        },
+        "optionalDependencies": [
+          "@oxlint/binding-android-arm-eabi",
+          "@oxlint/binding-android-arm64",
+          "@oxlint/binding-darwin-arm64",
+          "@oxlint/binding-darwin-x64",
+          "@oxlint/binding-freebsd-x64",
+          "@oxlint/binding-linux-arm-gnueabihf",
+          "@oxlint/binding-linux-arm-musleabihf",
+          "@oxlint/binding-linux-arm64-gnu",
+          "@oxlint/binding-linux-arm64-musl",
+          "@oxlint/binding-linux-ppc64-gnu",
+          "@oxlint/binding-linux-riscv64-gnu",
+          "@oxlint/binding-linux-riscv64-musl",
+          "@oxlint/binding-linux-s390x-gnu",
+          "@oxlint/binding-linux-x64-gnu",
+          "@oxlint/binding-linux-x64-musl",
+          "@oxlint/binding-openharmony-arm64",
+          "@oxlint/binding-win32-arm64-msvc",
+          "@oxlint/binding-win32-ia32-msvc",
+          "@oxlint/binding-win32-x64-msvc"
+        ],
+        "optionalPeerDependencies": [
+          "oxlint-tsgolint",
+          "vite-plus"
+        ]
+      }
+    },
+    "oxlint-tsgolint@npm:^7.0.2001": {
+      "checksum": "5ab7cfbc8b0cb7b7334c55053fa853312b20fa8656c95baa58782b46cdd44b374c729474528806c95c55ea724da104c67f708504ac12eb929482c9bc9466b403",
+      "resolution": {
+        "resolution": "oxlint-tsgolint@npm:7.0.2001",
+        "version": "7.0.2001",
+        "dependencies": {
+          "@oxlint-tsgolint/darwin-arm64": "7.0.2001",
+          "@oxlint-tsgolint/darwin-x64": "7.0.2001",
+          "@oxlint-tsgolint/linux-arm64": "7.0.2001",
+          "@oxlint-tsgolint/linux-x64": "7.0.2001",
+          "@oxlint-tsgolint/win32-arm64": "7.0.2001",
+          "@oxlint-tsgolint/win32-x64": "7.0.2001"
+        },
+        "optionalDependencies": [
+          "@oxlint-tsgolint/darwin-arm64",
+          "@oxlint-tsgolint/darwin-x64",
+          "@oxlint-tsgolint/linux-arm64",
+          "@oxlint-tsgolint/linux-x64",
+          "@oxlint-tsgolint/win32-arm64",
+          "@oxlint-tsgolint/win32-x64"
+        ]
+      }
+    },
+    "parse5@npm:^5.1.1": {
+      "checksum": "fdeb49aaecdf8e082dd8d9d1070838173f4a669726444737d4f989b58ec1cd22432fe2d983218a0879e438a5195f6b6d845dd847cf35d0b375eae13e937122d1",
+      "resolution": {
+        "resolution": "parse5@npm:5.1.1",
+        "version": "5.1.1"
+      }
+    },
+    "parse5@npm:^6.0.1": {
+      "checksum": "61315508dbb84ec12057070e6b5dcfd5e040a5b3040408f5bb0a2724b31753714b20af817cced8961e941e7a8aee185f028c5087bca0f6432144f1b60323a7a8",
+      "resolution": {
+        "resolution": "parse5@npm:6.0.1",
+        "version": "6.0.1"
+      }
+    },
+    "parse5-htmlparser2-tree-adapter@npm:^6.0.0": {
+      "checksum": "6238547e8b112ae436246dbd0cfdf05458a5843c79b8a040d48d06256763c1afcb81ad9bf5292216396ac2f36e0f0ef749a93a77ff48a3aab3efece2543f6e7a",
+      "resolution": {
+        "resolution": "parse5-htmlparser2-tree-adapter@npm:6.0.1",
+        "version": "6.0.1",
+        "dependencies": {
+          "parse5": "^6.0.1"
+        }
+      }
+    },
+    "require-directory@npm:^2.1.1": {
+      "checksum": "a0667814bccb6a21a251e2e0637fdabf2dc72ca6f3cd545c4ccd56541eb50593a9f79c7d85ffea98bbf9e948c518636f10a65c12fac670f5e6907488271175b5",
+      "resolution": {
+        "resolution": "require-directory@npm:2.1.1",
+        "version": "2.1.1"
+      }
+    },
+    "rsbuild-plugin-dts@npm:0.23.2": {
+      "checksum": "15a4590f3f81e4887e0d90203c52642bae23ad8bcc68b5a1167364033b2646cb2f18b79f8835fe7cd4cb99bcbefbd68802ccaffdf7b424eab6743d23b101af7c",
+      "resolution": {
+        "resolution": "rsbuild-plugin-dts@npm:0.23.2",
+        "version": "0.23.2",
+        "dependencies": {
+          "@ast-grep/napi": "0.37.0"
+        },
+        "peerDependencies": {
+          "@microsoft/api-extractor": "^7",
+          "@rsbuild/core": "^1.0.0 || ^2.0.0-0",
+          "@typescript/native-preview": "^7.0.0-0",
+          "typescript": "^5 || ^6 || ^7.0.1-0"
+        },
+        "optionalPeerDependencies": [
+          "@microsoft/api-extractor",
+          "@typescript/native-preview",
+          "typescript"
+        ]
+      }
+    },
+    "semver@npm:^7.5.4": {
+      "checksum": "bb502cc3e9b1bcb2d3614459e10f0410f523ffaf6f3c2cdd7634f71553e45a3e444c8820df9bf53296e7d9c1ea82d0496cab4cc8d26a32924966461b246c35a0",
+      "resolution": {
+        "resolution": "semver@npm:7.8.5",
+        "version": "7.8.5"
+      }
+    },
+    "skin-tone@npm:^2.0.0": {
+      "checksum": "0f66bfba5d4ad3a8143a5a590e7d5efd494036cd9ffedd25b646340c15dd7baf07036fc3ea770832a21e3c33b7e4be1acc6334a15dfc6ffb14a805cd5589f9a4",
+      "resolution": {
+        "resolution": "skin-tone@npm:2.0.0",
+        "version": "2.0.0",
+        "dependencies": {
+          "unicode-emoji-modifier-base": "^1.0.0"
+        }
+      }
+    },
+    "string-width@npm:^4.1.0, string-width@npm:^4.2.0": {
+      "checksum": "a54e9a8aa57526b7aa5b474afedfc57f72456458edf2c2d13631e5290795fe55e583a38eecf5b18a4ece3054628fb7092daa3ba98ceb8704f5c9d8c509184c7b",
+      "resolution": {
+        "resolution": "string-width@npm:4.2.3",
+        "version": "4.2.3",
+        "dependencies": {
+          "emoji-regex": "^8.0.0",
+          "is-fullwidth-code-point": "^3.0.0",
+          "strip-ansi": "^6.0.1"
+        }
+      }
+    },
+    "strip-ansi@npm:^6.0.0, strip-ansi@npm:^6.0.1": {
+      "checksum": "efea7c13a0f30374af39d5826c66fb9e26d958ef4c09dc641141abd0da25732dfad4b34db85461d0c462c62523f8ce0a13c0f314ccdd2378686b191dfd783c13",
+      "resolution": {
+        "resolution": "strip-ansi@npm:6.0.1",
+        "version": "6.0.1",
+        "dependencies": {
+          "ansi-regex": "^5.0.1"
+        }
+      }
+    },
+    "supports-color@npm:^7.0.0, supports-color@npm:^7.1.0": {
+      "checksum": "bbb11a0a57881cd8c18e3fccb02c6395373055a48f1f6e85fc688cf516542e05585633e3a6d96f2ddcfcfb087756baeaba250527f88b4c00ce87d674c745cd68",
+      "resolution": {
+        "resolution": "supports-color@npm:7.2.0",
+        "version": "7.2.0",
+        "dependencies": {
+          "has-flag": "^4.0.0"
+        }
+      }
+    },
+    "supports-hyperlinks@npm:^3.1.0": {
+      "checksum": "ad9562e89af8010328b2a015c9a5b73885b363568770120f3d657f6c0be3da9a18d224d291af9b75b192dea1c774f8f41c405026a42350ddaee1e01db694a637",
+      "resolution": {
+        "resolution": "supports-hyperlinks@npm:3.2.0",
+        "version": "3.2.0",
+        "dependencies": {
+          "has-flag": "^4.0.0",
+          "supports-color": "^7.0.0"
+        }
+      }
+    },
+    "thenify@npm:>= 3.1.0 < 4": {
+      "checksum": "97296b6a30a2b94c50598f8694ed061eca91e6d0e77c623da448502f2a44c39edf333a74637085a8fc9017bb983af1147750127e758c0204a5a7038da8f168a5",
+      "resolution": {
+        "resolution": "thenify@npm:3.3.1",
+        "version": "3.3.1",
+        "dependencies": {
+          "any-promise": "^1.0.0"
+        }
+      }
+    },
+    "thenify-all@npm:^1.0.0": {
+      "checksum": "5f78902cc7b757214d3c46a3dbb26ff0df5d2bc04f9fd6e39a4a694734d1eb16daf86d128d9006c0b7aea5d81ba9bf4f7261054b544cf8de8496a0feb14857d0",
+      "resolution": {
+        "resolution": "thenify-all@npm:1.6.0",
+        "version": "1.6.0",
+        "dependencies": {
+          "thenify": ">= 3.1.0 < 4"
+        }
+      }
+    },
+    "tinypool@npm:2.1.0": {
+      "checksum": "80f1959bf533532b8571bdaa93ee3a631c938fdb2a446caaa13fe36a1bdf1d1179c77a4a285d4898d47828a1d220135552dc75a1fe3f26506ffdc4896de325ee",
+      "resolution": {
+        "resolution": "tinypool@npm:2.1.0",
+        "version": "2.1.0"
+      }
+    },
+    "tslib@npm:^2.4.0, tslib@npm:^2.8.0": {
+      "checksum": "3b4cfa3fb43765eb6f4f173f10f0825ac19f09b18a737d2c9bf28e987271f97530b4f5e39f8ab16e9907ba65868878d0f405d8bacd0cb51f41f4be128cff92ad",
+      "resolution": {
+        "resolution": "tslib@npm:2.8.1",
+        "version": "2.8.1"
+      }
+    },
+    "tsx@npm:^4.23.12": {
+      "checksum": "7960e9a1071cf1d2c4b07a1d9887795ccd181bc87d96d176d1341e202625cf0409fa07f6c43b7ba63fdc5e79820bd9091f4597846ec1aeb8c6c1e0c48cc77268",
+      "resolution": {
+        "resolution": "tsx@npm:4.23.12",
+        "version": "4.23.12",
+        "dependencies": {
+          "esbuild": "~0.28.0",
+          "fsevents": "~2.3.3"
+        },
+        "optionalDependencies": [
+          "fsevents"
+        ]
+      }
+    },
+    "typescript@npm:5.6.1-rc": {
+      "checksum": "2e8ee46cf8c93db275ed960ae9fd5d53b33e400fb836075c769db887fd3fbfbb6b7ab4de1a197966757f7e06c47d12a453cf05b01b26242d513db7812ba0c42b",
+      "resolution": {
+        "resolution": "typescript@npm:5.6.1-rc",
+        "version": "5.6.1-rc"
+      }
+    },
+    "typescript@npm:^7.0.2": {
+      "checksum": "8a1c75c6a683adde78106ebe132a40cad476d9292e7dcfe82eeeccf3d99d88e5274117ebb92223d202bd43167cb9582ea1a504a25cce7733f86efb8c699a8f26",
+      "resolution": {
+        "resolution": "typescript@npm:7.0.2",
+        "version": "7.0.2",
+        "dependencies": {
+          "@typescript/typescript-aix-ppc64": "7.0.2",
+          "@typescript/typescript-darwin-arm64": "7.0.2",
+          "@typescript/typescript-darwin-x64": "7.0.2",
+          "@typescript/typescript-freebsd-arm64": "7.0.2",
+          "@typescript/typescript-freebsd-x64": "7.0.2",
+          "@typescript/typescript-linux-arm": "7.0.2",
+          "@typescript/typescript-linux-arm64": "7.0.2",
+          "@typescript/typescript-linux-loong64": "7.0.2",
+          "@typescript/typescript-linux-mips64el": "7.0.2",
+          "@typescript/typescript-linux-ppc64": "7.0.2",
+          "@typescript/typescript-linux-riscv64": "7.0.2",
+          "@typescript/typescript-linux-s390x": "7.0.2",
+          "@typescript/typescript-linux-x64": "7.0.2",
+          "@typescript/typescript-netbsd-arm64": "7.0.2",
+          "@typescript/typescript-netbsd-x64": "7.0.2",
+          "@typescript/typescript-openbsd-arm64": "7.0.2",
+          "@typescript/typescript-openbsd-x64": "7.0.2",
+          "@typescript/typescript-sunos-x64": "7.0.2",
+          "@typescript/typescript-win32-arm64": "7.0.2",
+          "@typescript/typescript-win32-x64": "7.0.2"
+        },
+        "optionalDependencies": [
+          "@typescript/typescript-aix-ppc64",
+          "@typescript/typescript-darwin-arm64",
+          "@typescript/typescript-darwin-x64",
+          "@typescript/typescript-freebsd-arm64",
+          "@typescript/typescript-freebsd-x64",
+          "@typescript/typescript-linux-arm",
+          "@typescript/typescript-linux-arm64",
+          "@typescript/typescript-linux-loong64",
+          "@typescript/typescript-linux-mips64el",
+          "@typescript/typescript-linux-ppc64",
+          "@typescript/typescript-linux-riscv64",
+          "@typescript/typescript-linux-s390x",
+          "@typescript/typescript-linux-x64",
+          "@typescript/typescript-netbsd-arm64",
+          "@typescript/typescript-netbsd-x64",
+          "@typescript/typescript-openbsd-arm64",
+          "@typescript/typescript-openbsd-x64",
+          "@typescript/typescript-sunos-x64",
+          "@typescript/typescript-win32-arm64",
+          "@typescript/typescript-win32-x64"
+        ]
+      }
+    },
+    "undici-types@npm:~8.3.0": {
+      "checksum": "aef53b55e37145dce1e1ff650c79e422a25db39f04fd7c85fbefc0820bfcc7150a5367710004f90cab874402b66026d7290d724fce14290aa608847c923c559a",
+      "resolution": {
+        "resolution": "undici-types@npm:8.3.0",
+        "version": "8.3.0"
+      }
+    },
+    "unicode-emoji-modifier-base@npm:^1.0.0": {
+      "checksum": "b0a53c5488f696a8bcf5dd5dd2083e6310debd28a3859a575e744103dd14bb32f14ec80283718b2b506159b16be23ee97160e43531379492300cedc59852f707",
+      "resolution": {
+        "resolution": "unicode-emoji-modifier-base@npm:1.0.0",
+        "version": "1.0.0"
+      }
+    },
+    "validate-npm-package-name@npm:^5.0.0": {
+      "checksum": "82fe4c215f51380e77322791eb0f81060042e7e5a52d4e9b48cdd4167f5e5036caf920e4dd096665c03490a437870edc8cbe9d3bd62ee6f064c58887c983edb2",
+      "resolution": {
+        "resolution": "validate-npm-package-name@npm:5.0.1",
+        "version": "5.0.1"
+      }
+    },
+    "wrap-ansi@npm:^7.0.0": {
+      "checksum": "8918d52b7c8e9759bf579bbb8a3a0b77bf3a027cf72736183e8725215108d7843b14109435bf26795d40801ce52ffdbd720bba47a36e333c56624fcb32538d57",
+      "resolution": {
+        "resolution": "wrap-ansi@npm:7.0.0",
+        "version": "7.0.0",
+        "dependencies": {
+          "ansi-styles": "^4.0.0",
+          "string-width": "^4.1.0",
+          "strip-ansi": "^6.0.0"
+        }
+      }
+    },
+    "y18n@npm:^5.0.5": {
+      "checksum": "acdfd4bd7eb6d33a091b57c13ac446338c90dc777fc2248e2013f9ee5f07a12c26eaba094f66cdb711f880f858ed96749bd42c6c3e08fbc254fe653397431dc2",
+      "resolution": {
+        "resolution": "y18n@npm:5.0.8",
+        "version": "5.0.8"
+      }
+    },
+    "yargs@npm:^16.0.0": {
+      "checksum": "9b393a1ffc342f7bcc5f9a23038e1e7e68cf0b7d64ef3511b8496f2fe73b729a926827d4d0479235164f509b72718b652654edb86705f949e2a344840b3b8675",
+      "resolution": {
+        "resolution": "yargs@npm:16.2.2",
+        "version": "16.2.2",
+        "dependencies": {
+          "cliui": "^7.0.2",
+          "escalade": "^3.1.1",
+          "get-caller-file": "^2.0.5",
+          "require-directory": "^2.1.1",
+          "string-width": "^4.2.0",
+          "y18n": "^5.0.5",
+          "yargs-parser": "^20.2.2"
+        }
+      }
+    },
+    "yargs-parser@npm:^20.2.2": {
+      "checksum": "a33609d431b9acd09fea187ce1c9d91d93c54c9d976d85273f53d348a4afce0cbf4644bd3f2293fb4bc53aee60948a571f25f1beb591ef39adbd1d8c42125131",
+      "resolution": {
+        "resolution": "yargs-parser@npm:20.2.9",
+        "version": "20.2.9"
+      }
+    }
+  }
+}
