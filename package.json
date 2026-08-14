@@ -7,6 +7,10 @@
     "email": "bigslycat@protonmail.com",
     "url": "https://github.com/bigslycat"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigslycat/locitree.git"
+  },
   "files": [
     "dist"
   ],
@@ -42,6 +46,10 @@
         "default": "./dist/cjs/node/index.cjs"
       }
     }
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "build": "rslib build",

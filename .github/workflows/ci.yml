@@ -2,7 +2,11 @@ name: CI
 
 on:
   push:
+    branches:
+      - '**'
   pull_request:
+  release:
+    types: [published]
 
 permissions:
   contents: read
@@ -53,3 +57,79 @@ jobs:
 
       - name: Run check
         run: ${{ matrix.command }}
+
+  publish:
+    name: npm
+    if:
+      github.event_name == 'release' && github.event.release.prerelease == false
+    needs: check
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    concurrency:
+      group: npm-publish-${{ github.event.release.tag_name }}
+      cancel-in-progress: false
+    permissions:
+      contents: read
+      id-token: write
+    env:
+      YARN_ENABLE_GLOBAL_CACHE: 'false'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Set up Yarn
+        uses: yarnpkg/setup-action@c9778d0717d1b46cf29f06ae5ae5ad41c1bb1c1a
+
+      - name: Set up Node.js
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: 24
+          registry-url: https://registry.npmjs.org/
+          package-manager-cache: false
+
+      - name: Verify release version
+        run: |
+          package_version="$(node -p "require('./package.json').version")"
+          if [[ "$GITHUB_REF_NAME" != "v$package_version" ]]; then
+            echo "::error::Release tag must be v$package_version, got $GITHUB_REF_NAME"
+            exit 1
+          fi
+
+      - name: Install dependencies
+        run: yarn install --immutable
+
+      # TODO(after first publish): Once Trusted Publisher is configured for
+      # ci.yml, remove this entire step.
+      - name: Check npm package
+        id: npm-package
+        run: |
+          package_name="$(node -p "require('./package.json').name")"
+          status="$(curl --silent --output /dev/null --write-out '%{http_code}' "https://registry.npmjs.org/$package_name")"
+          case "$status" in
+            200) echo "exists=true" >> "$GITHUB_OUTPUT" ;;
+            404) echo "exists=false" >> "$GITHUB_OUTPUT" ;;
+            *)
+              echo "::error::npm registry returned HTTP $status"
+              exit 1
+              ;;
+          esac
+
+      - name: Publish with trusted publishing
+        # TODO(after first publish): Remove only this condition; keep the step.
+        if: steps.npm-package.outputs.exists == 'true'
+        run: npm publish --provenance
+
+      # TODO(after first publish): Once Trusted Publisher is configured for
+      # ci.yml, remove this entire step and delete the NPM_TOKEN secret.
+      - name: Bootstrap first publish
+        if: steps.npm-package.outputs.exists == 'false'
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          if [[ -z "$NODE_AUTH_TOKEN" ]]; then
+            echo "::error::NPM_TOKEN is required for the first publish"
+            exit 1
+          fi
+          npm publish --provenance
