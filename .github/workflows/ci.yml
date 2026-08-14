@@ -15,6 +15,9 @@ jobs:
   check:
     name: ${{ matrix.name }}
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
     env:
       YARN_ENABLE_GLOBAL_CACHE: 'false'
     strategy:
@@ -28,7 +31,7 @@ jobs:
           - name: Types
             command: yarn typecheck
           - name: Tests
-            command: yarn test
+            command: yarn test --coverage
           - name: Package
             command: yarn check:attw
     steps:
@@ -58,10 +61,24 @@ jobs:
       - name: Run check
         run: ${{ matrix.command }}
 
+      - name: Upload coverage
+        if: >-
+          ${{
+            !cancelled()
+            && matrix.name == 'Tests'
+            && github.event_name == 'push'
+            && github.ref_name == 'main'
+          }}
+        uses: codecov/codecov-action@fb8b3582c8e4def4969c97caa2f19720cb33a72f # v7.0.0
+        with:
+          use_oidc: true
+          files: coverage/cobertura-coverage.xml
+          disable_search: true
+          fail_ci_if_error: true
+
   publish:
     name: npm
-    if:
-      github.event_name == 'release' && github.event.release.prerelease == false
+    if: github.event_name == 'release' && github.event.release.prerelease == false
     needs: check
     runs-on: ubuntu-latest
     timeout-minutes: 15

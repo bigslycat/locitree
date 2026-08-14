@@ -23,6 +23,13 @@ export default defineConfig({
         printWidth: 100,
       },
     },
+
+    {
+      files: ['.github/workflows/*.yml'],
+      options: {
+        printWidth: 120,
+      },
+    },
   ],
 
   ignorePatterns: ['dist', '.yarn', 'node_modules'],

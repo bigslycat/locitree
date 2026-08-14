@@ -1,6 +1,7 @@
 # Locitree
 
 [![CI](https://github.com/bigslycat/locitree/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/bigslycat/locitree/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/bigslycat/locitree/graph/badge.svg)](https://app.codecov.io/gh/bigslycat/locitree)
 
 Locitree is a small TypeScript DSL for describing related locations as an
 inferred, type-safe tree. It is useful when filesystem paths, object keys,

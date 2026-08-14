@@ -3,7 +3,7 @@
     "version": 9
   },
   "workspaces": {
-    "locitree": "e1e22329a2eda7fe6eb97addad72864440da3f5c377e68ce7a477ffbfcc29d94c61da79a5df734ae2264993851dd35a0aea5e6ce43239181063a03457101eb1e"
+    "locitree": "9099d99ad366e678b7fddcc2e9a6f4e4e46681e6de26dfbefd9e49d203b7010c1ef43998f60f73caa04fe02c056564393fa78a120aa43f2d3460804d5b258816"
   },
   "entries": {
     "@andrewbranch/untar.js@npm:^1.0.3": {
@@ -654,6 +654,31 @@
           "os": [
             "win32"
           ]
+        }
+      }
+    },
+    "@jridgewell/resolve-uri@npm:^3.1.0": {
+      "checksum": "397240602b8579f491a861e6d43646b4e532c6c5682975ec1d743c006468154dadd3633b240f6ba3079dd35a9f5d9dd95aca368747242aa92faa8cab1755a5e3",
+      "resolution": {
+        "resolution": "@jridgewell/resolve-uri@npm:3.1.2",
+        "version": "3.1.2"
+      }
+    },
+    "@jridgewell/sourcemap-codec@npm:^1.4.14": {
+      "checksum": "97c473678049224e9d8b37ee8d664e1f6d5f1a6ea7b7dbab03def33b9c7d4ea7c958bb6bacf5185d1fa2e97b45e6f05e4961eeccdaf077158b38f51ad714fdf2",
+      "resolution": {
+        "resolution": "@jridgewell/sourcemap-codec@npm:1.5.5",
+        "version": "1.5.5"
+      }
+    },
+    "@jridgewell/trace-mapping@npm:^0.3.23": {
+      "checksum": "9f26d9b91735820535862c10854d7800b2f3290639229e378c877da7ccf7322c9d725b6eda9762b523caa5dc9a51bfee5982f312b1d2f17f7d1f996bb45749a4",
+      "resolution": {
+        "resolution": "@jridgewell/trace-mapping@npm:0.3.31",
+        "version": "0.3.31",
+        "dependencies": {
+          "@jridgewell/resolve-uri": "^3.1.0",
+          "@jridgewell/sourcemap-codec": "^1.4.14"
         }
       }
     },
@@ -1752,6 +1777,23 @@
         ]
       }
     },
+    "@rstest/coverage-istanbul@npm:^0.11.6": {
+      "checksum": "b63b46c1c760e507dd4e31126ff35d203fa2d1f0ddf6a07eb56dabbf2a07492ab6ba31033329908dd9ff6a661457643bfc3dc9ccb88b641dcbd2ad4858c20f4f",
+      "resolution": {
+        "resolution": "@rstest/coverage-istanbul@npm:0.11.6",
+        "version": "0.11.6",
+        "dependencies": {
+          "istanbul-lib-coverage": "^3.2.2",
+          "istanbul-lib-report": "^3.0.1",
+          "istanbul-lib-source-maps": "^5.0.6",
+          "istanbul-reports": "^3.2.0",
+          "swc-plugin-coverage-instrument": "0.0.32"
+        },
+        "peerDependencies": {
+          "@rstest/core": "^0.11.0"
+        }
+      }
+    },
     "@sindresorhus/is@npm:^4.6.0": {
       "checksum": "30ca2fcc28c4186b081bbc58e0671649bb3cab9691d507dc60128cbf5bea69a8dd5e9dc5c08eb96902a408ce802e249a0df5d6a58d1513171329549dd7615329",
       "resolution": {
@@ -2252,6 +2294,22 @@
         "version": "10.0.1"
       }
     },
+    "debug@npm:^4.1.1": {
+      "checksum": "5da59829518832edd347b254e38617412a8ee2d687a9d58e4fb4f6daa21a088e9a0ee4c5c51a32f9c1e8b7189611226178aede8aecac5c38ca289661667452b5",
+      "resolution": {
+        "resolution": "debug@npm:4.4.3",
+        "version": "4.4.3",
+        "dependencies": {
+          "ms": "^2.1.3"
+        },
+        "peerDependencies": {
+          "supports-color": ">=0.0.0-0"
+        },
+        "optionalPeerDependencies": [
+          "supports-color"
+        ]
+      }
+    },
     "emoji-regex@npm:^8.0.0": {
       "checksum": "c279219b867ccc4e405539693b120d99633a2d6a4ef3024b6b1648c9d00b59950361c672e8011b5a3df86f0dfcc8b964b163d9557f70fd70d206a0fd29557c7d",
       "resolution": {
@@ -2386,6 +2444,13 @@
         "version": "10.7.3"
       }
     },
+    "html-escaper@npm:^2.0.0": {
+      "checksum": "aa11860365d5f90d76c93d704ca09b90cbf2888f335a25f5bdc6527cdc1fba90dc64aeabab865d90c15427f1c6fc2a20a525b556677153ef83ddffea9774d54f",
+      "resolution": {
+        "resolution": "html-escaper@npm:2.0.2",
+        "version": "2.0.2"
+      }
+    },
     "is-fullwidth-code-point@npm:^3.0.0": {
       "checksum": "859210ade1bfcac9c0dcda521b74b91e07177b8cab5fae8cfbc0c1c9b36deb31276062adab6dbaa3c1c0b61445898ef84c444667d14b9b6185656da02667d273",
       "resolution": {
@@ -2393,11 +2458,63 @@
         "version": "3.0.0"
       }
     },
+    "istanbul-lib-coverage@npm:^3.0.0, istanbul-lib-coverage@npm:^3.2.2": {
+      "checksum": "7561a8dd51e0470a1f85413512435d90ef77eeb0f8bc0bb3ec40184986b29cac78da82437cc4337378f014eb0de7b89e0349b78dd1825f43604d19529b30d47e",
+      "resolution": {
+        "resolution": "istanbul-lib-coverage@npm:3.2.2",
+        "version": "3.2.2"
+      }
+    },
+    "istanbul-lib-report@npm:^3.0.0, istanbul-lib-report@npm:^3.0.1": {
+      "checksum": "8563249e14602f4e649b77b7d6bb3f44924ee7374cc7c64989ed959ef14ae62dc4fd12cc0b66c53688ab7f31088aabc8ef3f39a387916d380b882b36f572d35f",
+      "resolution": {
+        "resolution": "istanbul-lib-report@npm:3.0.1",
+        "version": "3.0.1",
+        "dependencies": {
+          "istanbul-lib-coverage": "^3.0.0",
+          "make-dir": "^4.0.0",
+          "supports-color": "^7.1.0"
+        }
+      }
+    },
+    "istanbul-lib-source-maps@npm:^5.0.6": {
+      "checksum": "c6ea7a45acfda731d08e33f3b18c612ad9532c4259d0f678bcadf2a08d8bdfa5125bbf9098130e74c2909288d27ff0d09d9395df8a418d0c41c8a9eb395508ef",
+      "resolution": {
+        "resolution": "istanbul-lib-source-maps@npm:5.0.6",
+        "version": "5.0.6",
+        "dependencies": {
+          "@jridgewell/trace-mapping": "^0.3.23",
+          "debug": "^4.1.1",
+          "istanbul-lib-coverage": "^3.0.0"
+        }
+      }
+    },
+    "istanbul-reports@npm:^3.2.0": {
+      "checksum": "687fe9a439350bb9c06c800c574e2b549a0e82e9825f5299620164d97bd38cee5f839169d592e4e9a3d12e5bbd8e3b69a1cf5347d409c1def6dcea06502dc5de",
+      "resolution": {
+        "resolution": "istanbul-reports@npm:3.2.0",
+        "version": "3.2.0",
+        "dependencies": {
+          "html-escaper": "^2.0.0",
+          "istanbul-lib-report": "^3.0.0"
+        }
+      }
+    },
     "lru-cache@npm:^11.0.1": {
       "checksum": "20175a3ab2f566aac776b9e95132f37c8710f54bd069b4bc132c871f24704f198314870f78e4590e85c3a7c3392734d557b2bb70046c3d71b11ef1c563ffcb7d",
       "resolution": {
         "resolution": "lru-cache@npm:11.5.2",
         "version": "11.5.2"
+      }
+    },
+    "make-dir@npm:^4.0.0": {
+      "checksum": "bc0ff8a20fdfdd027df289fd89984a9cac1b907fab4b3e80712f8d6bc4e706429cee7b57beb4a870430f47fd5698fdbec88c767772437c040763cb79f29249d7",
+      "resolution": {
+        "resolution": "make-dir@npm:4.0.0",
+        "version": "4.0.0",
+        "dependencies": {
+          "semver": "^7.5.3"
+        }
       }
     },
     "marked@npm:^9.1.2": {
@@ -2424,6 +2541,13 @@
         "peerDependencies": {
           "marked": ">=1 <16"
         }
+      }
+    },
+    "ms@npm:^2.1.3": {
+      "checksum": "6bbb3b34df198b189cdd89fd4374e887ce8884ffe478d2bc7f0f5c9041fe8112521c67a0c5984d6a04810755d46a9bf89a514ac9776c5828cba207bcd8802892",
+      "resolution": {
+        "resolution": "ms@npm:2.1.3",
+        "version": "2.1.3"
       }
     },
     "mz@npm:^2.4.0": {
@@ -2648,7 +2772,7 @@
         ]
       }
     },
-    "semver@npm:^7.5.4": {
+    "semver@npm:^7.5.3, semver@npm:^7.5.4": {
       "checksum": "bb502cc3e9b1bcb2d3614459e10f0410f523ffaf6f3c2cdd7634f71553e45a3e444c8820df9bf53296e7d9c1ea82d0496cab4cc8d26a32924966461b246c35a0",
       "resolution": {
         "resolution": "semver@npm:7.8.5",
@@ -2706,6 +2830,13 @@
           "has-flag": "^4.0.0",
           "supports-color": "^7.0.0"
         }
+      }
+    },
+    "swc-plugin-coverage-instrument@npm:0.0.32": {
+      "checksum": "3c37eff8c82a7201da2c036e25c77a9d58439b351fb69b41be9b6840205c19069b831f08f3e62f5ea21e8cbdf70bc278cf4f84a3f785a8e9fe0611abc6284b77",
+      "resolution": {
+        "resolution": "swc-plugin-coverage-instrument@npm:0.0.32",
+        "version": "0.0.32"
       }
     },
     "thenify@npm:>= 3.1.0 < 4": {
