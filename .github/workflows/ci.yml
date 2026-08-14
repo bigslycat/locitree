@@ -100,36 +100,5 @@ jobs:
       - name: Install dependencies
         run: yarn install --immutable
 
-      # TODO(after first publish): Once Trusted Publisher is configured for
-      # ci.yml, remove this entire step.
-      - name: Check npm package
-        id: npm-package
-        run: |
-          package_name="$(node -p "require('./package.json').name")"
-          status="$(curl --silent --output /dev/null --write-out '%{http_code}' "https://registry.npmjs.org/$package_name")"
-          case "$status" in
-            200) echo "exists=true" >> "$GITHUB_OUTPUT" ;;
-            404) echo "exists=false" >> "$GITHUB_OUTPUT" ;;
-            *)
-              echo "::error::npm registry returned HTTP $status"
-              exit 1
-              ;;
-          esac
-
       - name: Publish with trusted publishing
-        # TODO(after first publish): Remove only this condition; keep the step.
-        if: steps.npm-package.outputs.exists == 'true'
         run: npm publish --provenance
-
-      # TODO(after first publish): Once Trusted Publisher is configured for
-      # ci.yml, remove this entire step and delete the NPM_TOKEN secret.
-      - name: Bootstrap first publish
-        if: steps.npm-package.outputs.exists == 'false'
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: |
-          if [[ -z "$NODE_AUTH_TOKEN" ]]; then
-            echo "::error::NPM_TOKEN is required for the first publish"
-            exit 1
-          fi
-          npm publish --provenance
