@@ -33,6 +33,7 @@ npm install locitree
 
 ```ts
 import { mkdir, readFile } from 'node:fs/promises'
+
 import { defineLocation } from 'locitree/node'
 
 const locations = defineLocation(process.cwd(), (inRoot) => ({
