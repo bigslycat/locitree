@@ -1,5 +1,9 @@
 # Locitree
 
+English | [Русский](./README.ru.md) | [Українська](./README.uk.md) |
+[Español](./README.es.md) | [简体中文](./README.zh-CN.md) |
+[日本語](./README.ja.md)
+
 [![CI](https://github.com/bigslycat/locitree/actions/workflows/ci.yml/badge.svg?branch=main&event=push)](https://github.com/bigslycat/locitree/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/bigslycat/locitree/graph/badge.svg)](https://app.codecov.io/gh/bigslycat/locitree)
 
