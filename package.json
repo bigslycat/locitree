@@ -70,11 +70,11 @@
     "@rstest/adapter-rslib": "^0.12.4",
     "@rstest/core": "^0.12.4",
     "@rstest/coverage-istanbul": "^0.12.4",
-    "@types/node": "^26.2.0",
-    "oxfmt": "^0.62.0",
-    "oxlint": "^1.77.0",
-    "oxlint-tsgolint": "^7.0.2001",
-    "tsx": "^4.23.12",
+    "@types/node": "^26.6.5",
+    "oxfmt": "^0.74.0",
+    "oxlint": "^1.89.0",
+    "oxlint-tsgolint": "^7.0.2004",
+    "tsx": "^4.23.15",
     "typescript": "^7.0.2"
   },
   "engines": {

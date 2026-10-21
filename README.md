@@ -32,6 +32,7 @@ uses platform-native separators.
 
 ```ts
 import { mkdir, readFile } from 'node:fs/promises'
+
 import { defineLocation } from 'locitree/node'
 
 const locations = defineLocation(process.cwd(), (inRoot) => ({
