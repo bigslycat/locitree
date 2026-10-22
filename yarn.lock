@@ -2586,7 +2586,7 @@
       "checksum": null,
       "resolution": {
         "resolution": "locitree@workspace:locitree",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "dependencies": {
           "@arethetypeswrong/cli": "^0.18.5",
           "@rslib/core": "^1.0.3",
