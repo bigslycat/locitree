@@ -43,21 +43,21 @@
         }
       }
     },
-    "@ast-grep/napi@npm:0.45.3": {
-      "checksum": "cbc66c9b6833eb6e44bda745998690bc6575ccb467dc26510c32d6e8dd281937b3a6af44e04a0be90e32212f424b86146a9a51c8685dfc45a17e921b69daaed4",
+    "@ast-grep/napi@npm:0.51.0": {
+      "checksum": "f0314f5db26981fab00af066b319818d79bfa1e142281b1112d4243793a4f0f71d2c1c032cb99ca2a1a9c0eb6329c21197f3a669d9df151979241e65986f5e35",
       "resolution": {
-        "resolution": "@ast-grep/napi@npm:0.45.3",
-        "version": "0.45.3",
+        "resolution": "@ast-grep/napi@npm:0.51.0",
+        "version": "0.51.0",
         "dependencies": {
-          "@ast-grep/napi-darwin-arm64": "0.45.3",
-          "@ast-grep/napi-darwin-x64": "0.45.3",
-          "@ast-grep/napi-linux-arm64-gnu": "0.45.3",
-          "@ast-grep/napi-linux-arm64-musl": "0.45.3",
-          "@ast-grep/napi-linux-x64-gnu": "0.45.3",
-          "@ast-grep/napi-linux-x64-musl": "0.45.3",
-          "@ast-grep/napi-win32-arm64-msvc": "0.45.3",
-          "@ast-grep/napi-win32-ia32-msvc": "0.45.3",
-          "@ast-grep/napi-win32-x64-msvc": "0.45.3"
+          "@ast-grep/napi-darwin-arm64": "0.51.0",
+          "@ast-grep/napi-darwin-x64": "0.51.0",
+          "@ast-grep/napi-linux-arm64-gnu": "0.51.0",
+          "@ast-grep/napi-linux-arm64-musl": "0.51.0",
+          "@ast-grep/napi-linux-x64-gnu": "0.51.0",
+          "@ast-grep/napi-linux-x64-musl": "0.51.0",
+          "@ast-grep/napi-win32-arm64-msvc": "0.51.0",
+          "@ast-grep/napi-win32-ia32-msvc": "0.51.0",
+          "@ast-grep/napi-win32-x64-msvc": "0.51.0"
         },
         "optionalDependencies": [
           "@ast-grep/napi-darwin-arm64",
@@ -72,11 +72,11 @@
         ]
       }
     },
-    "@ast-grep/napi-darwin-arm64@npm:0.45.3": {
+    "@ast-grep/napi-darwin-arm64@npm:0.51.0": {
       "checksum": null,
       "resolution": {
-        "resolution": "@ast-grep/napi-darwin-arm64@npm:0.45.3",
-        "version": "0.45.3",
+        "resolution": "@ast-grep/napi-darwin-arm64@npm:0.51.0",
+        "version": "0.51.0",
         "requirements": {
           "cpu": [
             "arm64"
@@ -87,11 +87,11 @@
         }
       }
     },
-    "@ast-grep/napi-darwin-x64@npm:0.45.3": {
+    "@ast-grep/napi-darwin-x64@npm:0.51.0": {
       "checksum": null,
       "resolution": {
-        "resolution": "@ast-grep/napi-darwin-x64@npm:0.45.3",
-        "version": "0.45.3",
+        "resolution": "@ast-grep/napi-darwin-x64@npm:0.51.0",
+        "version": "0.51.0",
         "requirements": {
           "cpu": [
             "x64"
@@ -102,11 +102,11 @@
         }
       }
     },
-    "@ast-grep/napi-linux-arm64-gnu@npm:0.45.3": {
+    "@ast-grep/napi-linux-arm64-gnu@npm:0.51.0": {
       "checksum": null,
       "resolution": {
-        "resolution": "@ast-grep/napi-linux-arm64-gnu@npm:0.45.3",
-        "version": "0.45.3",
+        "resolution": "@ast-grep/napi-linux-arm64-gnu@npm:0.51.0",
+        "version": "0.51.0",
         "requirements": {
           "cpu": [
             "arm64"
@@ -120,11 +120,11 @@
         }
       }
     },
-    "@ast-grep/napi-linux-arm64-musl@npm:0.45.3": {
+    "@ast-grep/napi-linux-arm64-musl@npm:0.51.0": {
       "checksum": null,
       "resolution": {
-        "resolution": "@ast-grep/napi-linux-arm64-musl@npm:0.45.3",
-        "version": "0.45.3",
+        "resolution": "@ast-grep/napi-linux-arm64-musl@npm:0.51.0",
+        "version": "0.51.0",
         "requirements": {
           "cpu": [
             "arm64"
@@ -138,11 +138,11 @@
         }
       }
     },
-    "@ast-grep/napi-linux-x64-gnu@npm:0.45.3": {
+    "@ast-grep/napi-linux-x64-gnu@npm:0.51.0": {
       "checksum": null,
       "resolution": {
-        "resolution": "@ast-grep/napi-linux-x64-gnu@npm:0.45.3",
-        "version": "0.45.3",
+        "resolution": "@ast-grep/napi-linux-x64-gnu@npm:0.51.0",
+        "version": "0.51.0",
         "requirements": {
           "cpu": [
             "x64"
@@ -156,11 +156,11 @@
         }
       }
     },
-    "@ast-grep/napi-linux-x64-musl@npm:0.45.3": {
+    "@ast-grep/napi-linux-x64-musl@npm:0.51.0": {
       "checksum": null,
       "resolution": {
-        "resolution": "@ast-grep/napi-linux-x64-musl@npm:0.45.3",
-        "version": "0.45.3",
+        "resolution": "@ast-grep/napi-linux-x64-musl@npm:0.51.0",
+        "version": "0.51.0",
         "requirements": {
           "cpu": [
             "x64"
@@ -174,11 +174,11 @@
         }
       }
     },
-    "@ast-grep/napi-win32-arm64-msvc@npm:0.45.3": {
+    "@ast-grep/napi-win32-arm64-msvc@npm:0.51.0": {
       "checksum": null,
       "resolution": {
-        "resolution": "@ast-grep/napi-win32-arm64-msvc@npm:0.45.3",
-        "version": "0.45.3",
+        "resolution": "@ast-grep/napi-win32-arm64-msvc@npm:0.51.0",
+        "version": "0.51.0",
         "requirements": {
           "cpu": [
             "arm64"
@@ -189,11 +189,11 @@
         }
       }
     },
-    "@ast-grep/napi-win32-ia32-msvc@npm:0.45.3": {
+    "@ast-grep/napi-win32-ia32-msvc@npm:0.51.0": {
       "checksum": null,
       "resolution": {
-        "resolution": "@ast-grep/napi-win32-ia32-msvc@npm:0.45.3",
-        "version": "0.45.3",
+        "resolution": "@ast-grep/napi-win32-ia32-msvc@npm:0.51.0",
+        "version": "0.51.0",
         "requirements": {
           "cpu": [
             "ia32"
@@ -204,11 +204,11 @@
         }
       }
     },
-    "@ast-grep/napi-win32-x64-msvc@npm:0.45.3": {
+    "@ast-grep/napi-win32-x64-msvc@npm:0.51.0": {
       "checksum": null,
       "resolution": {
-        "resolution": "@ast-grep/napi-win32-x64-msvc@npm:0.45.3",
-        "version": "0.45.3",
+        "resolution": "@ast-grep/napi-win32-x64-msvc@npm:0.51.0",
+        "version": "0.51.0",
         "requirements": {
           "cpu": [
             "x64"
@@ -1022,11 +1022,11 @@
         }
       }
     },
-    "@oxlint-tsgolint/darwin-arm64@npm:7.0.2004": {
+    "@oxlint-tsgolint/darwin-arm64@npm:7.0.2005": {
       "checksum": null,
       "resolution": {
-        "resolution": "@oxlint-tsgolint/darwin-arm64@npm:7.0.2004",
-        "version": "7.0.2004",
+        "resolution": "@oxlint-tsgolint/darwin-arm64@npm:7.0.2005",
+        "version": "7.0.2005",
         "requirements": {
           "cpu": [
             "arm64"
@@ -1037,11 +1037,11 @@
         }
       }
     },
-    "@oxlint-tsgolint/darwin-x64@npm:7.0.2004": {
+    "@oxlint-tsgolint/darwin-x64@npm:7.0.2005": {
       "checksum": null,
       "resolution": {
-        "resolution": "@oxlint-tsgolint/darwin-x64@npm:7.0.2004",
-        "version": "7.0.2004",
+        "resolution": "@oxlint-tsgolint/darwin-x64@npm:7.0.2005",
+        "version": "7.0.2005",
         "requirements": {
           "cpu": [
             "x64"
@@ -1052,11 +1052,11 @@
         }
       }
     },
-    "@oxlint-tsgolint/linux-arm64@npm:7.0.2004": {
+    "@oxlint-tsgolint/linux-arm64@npm:7.0.2005": {
       "checksum": null,
       "resolution": {
-        "resolution": "@oxlint-tsgolint/linux-arm64@npm:7.0.2004",
-        "version": "7.0.2004",
+        "resolution": "@oxlint-tsgolint/linux-arm64@npm:7.0.2005",
+        "version": "7.0.2005",
         "requirements": {
           "cpu": [
             "arm64"
@@ -1067,11 +1067,11 @@
         }
       }
     },
-    "@oxlint-tsgolint/linux-x64@npm:7.0.2004": {
+    "@oxlint-tsgolint/linux-x64@npm:7.0.2005": {
       "checksum": null,
       "resolution": {
-        "resolution": "@oxlint-tsgolint/linux-x64@npm:7.0.2004",
-        "version": "7.0.2004",
+        "resolution": "@oxlint-tsgolint/linux-x64@npm:7.0.2005",
+        "version": "7.0.2005",
         "requirements": {
           "cpu": [
             "x64"
@@ -1082,11 +1082,11 @@
         }
       }
     },
-    "@oxlint-tsgolint/win32-arm64@npm:7.0.2004": {
+    "@oxlint-tsgolint/win32-arm64@npm:7.0.2005": {
       "checksum": null,
       "resolution": {
-        "resolution": "@oxlint-tsgolint/win32-arm64@npm:7.0.2004",
-        "version": "7.0.2004",
+        "resolution": "@oxlint-tsgolint/win32-arm64@npm:7.0.2005",
+        "version": "7.0.2005",
         "requirements": {
           "cpu": [
             "arm64"
@@ -1097,11 +1097,11 @@
         }
       }
     },
-    "@oxlint-tsgolint/win32-x64@npm:7.0.2004": {
+    "@oxlint-tsgolint/win32-x64@npm:7.0.2005": {
       "checksum": null,
       "resolution": {
-        "resolution": "@oxlint-tsgolint/win32-x64@npm:7.0.2004",
-        "version": "7.0.2004",
+        "resolution": "@oxlint-tsgolint/win32-x64@npm:7.0.2005",
+        "version": "7.0.2005",
         "requirements": {
           "cpu": [
             "x64"
@@ -1421,7 +1421,7 @@
         }
       }
     },
-    "@rsbuild/core@npm:~2.2.11, @rsbuild/core@npm:~2.2.13": {
+    "@rsbuild/core@npm:~2.2.13": {
       "checksum": "97d6e2092380f9394115dedad9589aa79e1cc4e0d0811d705aa86197faa872108eddaa2e3cc07e58cfe58b4226170108e5f417df59367f3e9c777e949b59eec4",
       "resolution": {
         "resolution": "@rsbuild/core@npm:2.2.14",
@@ -1438,18 +1438,35 @@
         ]
       }
     },
-    "@rslib/core@npm:^1.0.3": {
-      "checksum": "348c2c63019c4ae52337138a2dd98dd405bdb5e6f425b6fec488e3128b9f51ba0a08508b9803e0e238a5b3509fa5a2b6516c14ec0f111681738aae8aa2b9318f",
+    "@rsbuild/core@npm:~2.3.0-beta.0": {
+      "checksum": "07aba5816ae216a5b024ead364e166758817c9a2e6ab2261584a68650124eb3be82bbb0813b4da68bfd7de63f59cf0d66b94efb7082cc72b35912b79cc0ae291",
       "resolution": {
-        "resolution": "@rslib/core@npm:1.0.3",
-        "version": "1.0.3",
+        "resolution": "@rsbuild/core@npm:2.3.0-beta.0",
+        "version": "2.3.0-beta.0",
         "dependencies": {
-          "@rsbuild/core": "~2.2.11",
-          "rsbuild-plugin-dts": "1.0.3"
+          "@rspack/core": "~2.3.0-beta.0",
+          "@swc/helpers": "^0.5.23"
+        },
+        "peerDependencies": {
+          "core-js": ">= 3.0.0"
+        },
+        "optionalPeerDependencies": [
+          "core-js"
+        ]
+      }
+    },
+    "@rslib/core@npm:^1.0.4": {
+      "checksum": "17b9217d1841be45ec9ebaf980c4da4421c0a3adefba7a2c8bf52e440520b651c07ae096d3cc15099fd7c6797b99ec746d6207d88cee3d7a9123048402d8bcdf",
+      "resolution": {
+        "resolution": "@rslib/core@npm:1.0.4",
+        "version": "1.0.4",
+        "dependencies": {
+          "@rsbuild/core": "~2.3.0-beta.0",
+          "rsbuild-plugin-dts": "1.0.4"
         },
         "peerDependencies": {
           "@microsoft/api-extractor": "^7",
-          "typescript": "^5 || ^6 || ^7"
+          "typescript": "^5 || ^6 || ^7 || ^7.1.0-0"
         },
         "optionalPeerDependencies": [
           "@microsoft/api-extractor",
@@ -1496,11 +1513,65 @@
         ]
       }
     },
+    "@rspack/binding@npm:2.3.0-beta.1": {
+      "checksum": "fdcdfa99da76a09d9ecf196360de7c037e737c4fadc2fb145496f89821e099998e90561fdf95b13470aaa23c440c7d19be140da78617c571b9ff2cdba50e593c",
+      "resolution": {
+        "resolution": "@rspack/binding@npm:2.3.0-beta.1",
+        "version": "2.3.0-beta.1",
+        "dependencies": {
+          "@rspack/binding-darwin-arm64": "2.3.0-beta.1",
+          "@rspack/binding-darwin-x64": "2.3.0-beta.1",
+          "@rspack/binding-linux-arm64-gnu": "2.3.0-beta.1",
+          "@rspack/binding-linux-arm64-musl": "2.3.0-beta.1",
+          "@rspack/binding-linux-ppc64-gnu": "2.3.0-beta.1",
+          "@rspack/binding-linux-riscv64-gnu": "2.3.0-beta.1",
+          "@rspack/binding-linux-riscv64-musl": "2.3.0-beta.1",
+          "@rspack/binding-linux-s390x-gnu": "2.3.0-beta.1",
+          "@rspack/binding-linux-x64-gnu": "2.3.0-beta.1",
+          "@rspack/binding-linux-x64-musl": "2.3.0-beta.1",
+          "@rspack/binding-wasm32-wasi": "2.3.0-beta.1",
+          "@rspack/binding-win32-arm64-msvc": "2.3.0-beta.1",
+          "@rspack/binding-win32-ia32-msvc": "2.3.0-beta.1",
+          "@rspack/binding-win32-x64-msvc": "2.3.0-beta.1"
+        },
+        "optionalDependencies": [
+          "@rspack/binding-darwin-arm64",
+          "@rspack/binding-darwin-x64",
+          "@rspack/binding-linux-arm64-gnu",
+          "@rspack/binding-linux-arm64-musl",
+          "@rspack/binding-linux-ppc64-gnu",
+          "@rspack/binding-linux-riscv64-gnu",
+          "@rspack/binding-linux-riscv64-musl",
+          "@rspack/binding-linux-s390x-gnu",
+          "@rspack/binding-linux-x64-gnu",
+          "@rspack/binding-linux-x64-musl",
+          "@rspack/binding-wasm32-wasi",
+          "@rspack/binding-win32-arm64-msvc",
+          "@rspack/binding-win32-ia32-msvc",
+          "@rspack/binding-win32-x64-msvc"
+        ]
+      }
+    },
     "@rspack/binding-darwin-arm64@npm:2.2.9": {
       "checksum": null,
       "resolution": {
         "resolution": "@rspack/binding-darwin-arm64@npm:2.2.9",
         "version": "2.2.9",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "darwin"
+          ]
+        }
+      }
+    },
+    "@rspack/binding-darwin-arm64@npm:2.3.0-beta.1": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@rspack/binding-darwin-arm64@npm:2.3.0-beta.1",
+        "version": "2.3.0-beta.1",
         "requirements": {
           "cpu": [
             "arm64"
@@ -1526,11 +1597,44 @@
         }
       }
     },
+    "@rspack/binding-darwin-x64@npm:2.3.0-beta.1": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@rspack/binding-darwin-x64@npm:2.3.0-beta.1",
+        "version": "2.3.0-beta.1",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "darwin"
+          ]
+        }
+      }
+    },
     "@rspack/binding-linux-arm64-gnu@npm:2.2.9": {
       "checksum": null,
       "resolution": {
         "resolution": "@rspack/binding-linux-arm64-gnu@npm:2.2.9",
         "version": "2.2.9",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "glibc"
+          ]
+        }
+      }
+    },
+    "@rspack/binding-linux-arm64-gnu@npm:2.3.0-beta.1": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@rspack/binding-linux-arm64-gnu@npm:2.3.0-beta.1",
+        "version": "2.3.0-beta.1",
         "requirements": {
           "cpu": [
             "arm64"
@@ -1562,11 +1666,47 @@
         }
       }
     },
+    "@rspack/binding-linux-arm64-musl@npm:2.3.0-beta.1": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@rspack/binding-linux-arm64-musl@npm:2.3.0-beta.1",
+        "version": "2.3.0-beta.1",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "musl"
+          ]
+        }
+      }
+    },
     "@rspack/binding-linux-ppc64-gnu@npm:2.2.9": {
       "checksum": null,
       "resolution": {
         "resolution": "@rspack/binding-linux-ppc64-gnu@npm:2.2.9",
         "version": "2.2.9",
+        "requirements": {
+          "cpu": [
+            "ppc64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "glibc"
+          ]
+        }
+      }
+    },
+    "@rspack/binding-linux-ppc64-gnu@npm:2.3.0-beta.1": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@rspack/binding-linux-ppc64-gnu@npm:2.3.0-beta.1",
+        "version": "2.3.0-beta.1",
         "requirements": {
           "cpu": [
             "ppc64"
@@ -1598,11 +1738,47 @@
         }
       }
     },
+    "@rspack/binding-linux-riscv64-gnu@npm:2.3.0-beta.1": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@rspack/binding-linux-riscv64-gnu@npm:2.3.0-beta.1",
+        "version": "2.3.0-beta.1",
+        "requirements": {
+          "cpu": [
+            "riscv64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "glibc"
+          ]
+        }
+      }
+    },
     "@rspack/binding-linux-riscv64-musl@npm:2.2.9": {
       "checksum": null,
       "resolution": {
         "resolution": "@rspack/binding-linux-riscv64-musl@npm:2.2.9",
         "version": "2.2.9",
+        "requirements": {
+          "cpu": [
+            "riscv64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "musl"
+          ]
+        }
+      }
+    },
+    "@rspack/binding-linux-riscv64-musl@npm:2.3.0-beta.1": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@rspack/binding-linux-riscv64-musl@npm:2.3.0-beta.1",
+        "version": "2.3.0-beta.1",
         "requirements": {
           "cpu": [
             "riscv64"
@@ -1634,11 +1810,47 @@
         }
       }
     },
+    "@rspack/binding-linux-s390x-gnu@npm:2.3.0-beta.1": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@rspack/binding-linux-s390x-gnu@npm:2.3.0-beta.1",
+        "version": "2.3.0-beta.1",
+        "requirements": {
+          "cpu": [
+            "s390x"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "glibc"
+          ]
+        }
+      }
+    },
     "@rspack/binding-linux-x64-gnu@npm:2.2.9": {
       "checksum": null,
       "resolution": {
         "resolution": "@rspack/binding-linux-x64-gnu@npm:2.2.9",
         "version": "2.2.9",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "glibc"
+          ]
+        }
+      }
+    },
+    "@rspack/binding-linux-x64-gnu@npm:2.3.0-beta.1": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@rspack/binding-linux-x64-gnu@npm:2.3.0-beta.1",
+        "version": "2.3.0-beta.1",
         "requirements": {
           "cpu": [
             "x64"
@@ -1670,11 +1882,46 @@
         }
       }
     },
+    "@rspack/binding-linux-x64-musl@npm:2.3.0-beta.1": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@rspack/binding-linux-x64-musl@npm:2.3.0-beta.1",
+        "version": "2.3.0-beta.1",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "linux"
+          ],
+          "libc": [
+            "musl"
+          ]
+        }
+      }
+    },
     "@rspack/binding-wasm32-wasi@npm:2.2.9": {
       "checksum": null,
       "resolution": {
         "resolution": "@rspack/binding-wasm32-wasi@npm:2.2.9",
         "version": "2.2.9",
+        "requirements": {
+          "cpu": [
+            "wasm32"
+          ]
+        },
+        "dependencies": {
+          "@emnapi/core": "1.11.3",
+          "@emnapi/runtime": "1.11.3",
+          "@napi-rs/wasm-runtime": "1.1.6"
+        }
+      }
+    },
+    "@rspack/binding-wasm32-wasi@npm:2.3.0-beta.1": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@rspack/binding-wasm32-wasi@npm:2.3.0-beta.1",
+        "version": "2.3.0-beta.1",
         "requirements": {
           "cpu": [
             "wasm32"
@@ -1702,11 +1949,41 @@
         }
       }
     },
+    "@rspack/binding-win32-arm64-msvc@npm:2.3.0-beta.1": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@rspack/binding-win32-arm64-msvc@npm:2.3.0-beta.1",
+        "version": "2.3.0-beta.1",
+        "requirements": {
+          "cpu": [
+            "arm64"
+          ],
+          "os": [
+            "win32"
+          ]
+        }
+      }
+    },
     "@rspack/binding-win32-ia32-msvc@npm:2.2.9": {
       "checksum": null,
       "resolution": {
         "resolution": "@rspack/binding-win32-ia32-msvc@npm:2.2.9",
         "version": "2.2.9",
+        "requirements": {
+          "cpu": [
+            "ia32"
+          ],
+          "os": [
+            "win32"
+          ]
+        }
+      }
+    },
+    "@rspack/binding-win32-ia32-msvc@npm:2.3.0-beta.1": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@rspack/binding-win32-ia32-msvc@npm:2.3.0-beta.1",
+        "version": "2.3.0-beta.1",
         "requirements": {
           "cpu": [
             "ia32"
@@ -1732,6 +2009,21 @@
         }
       }
     },
+    "@rspack/binding-win32-x64-msvc@npm:2.3.0-beta.1": {
+      "checksum": null,
+      "resolution": {
+        "resolution": "@rspack/binding-win32-x64-msvc@npm:2.3.0-beta.1",
+        "version": "2.3.0-beta.1",
+        "requirements": {
+          "cpu": [
+            "x64"
+          ],
+          "os": [
+            "win32"
+          ]
+        }
+      }
+    },
     "@rspack/core@npm:~2.2.9": {
       "checksum": "f2e21bddb963dbeb1e0aa40c4525c761d3e11e457227ac0d2ad8f7d9ae3acba3086be0420def13c26ff3e6f712922251b6d740b477ae656ca8ea909636f5e580",
       "resolution": {
@@ -1739,6 +2031,24 @@
         "version": "2.2.9",
         "dependencies": {
           "@rspack/binding": "2.2.9"
+        },
+        "peerDependencies": {
+          "@module-federation/runtime-tools": "^0.24.1 || ^2.0.0",
+          "@swc/helpers": "^0.5.23"
+        },
+        "optionalPeerDependencies": [
+          "@module-federation/runtime-tools",
+          "@swc/helpers"
+        ]
+      }
+    },
+    "@rspack/core@npm:~2.3.0-beta.0": {
+      "checksum": "fbf5e1aac7d73fb2c75cefd55f6acc49b81126d45585fb2a6f262744659c8bd2f16770ecf9033daa2c06760dbaf5ff563d7eddf79372ac1480fbceb3db26c2c3",
+      "resolution": {
+        "resolution": "@rspack/core@npm:2.3.0-beta.1",
+        "version": "2.3.0-beta.1",
+        "dependencies": {
+          "@rspack/binding": "2.3.0-beta.1"
         },
         "peerDependencies": {
           "@module-federation/runtime-tools": "^0.24.1 || ^2.0.0",
@@ -2589,14 +2899,14 @@
         "version": "0.0.2",
         "dependencies": {
           "@arethetypeswrong/cli": "^0.18.5",
-          "@rslib/core": "^1.0.3",
+          "@rslib/core": "^1.0.4",
           "@rstest/adapter-rslib": "^0.12.4",
           "@rstest/core": "^0.12.4",
           "@rstest/coverage-istanbul": "^0.12.4",
           "@types/node": "^26.6.5",
           "oxfmt": "^0.74.0",
           "oxlint": "^1.89.0",
-          "oxlint-tsgolint": "^7.0.2004",
+          "oxlint-tsgolint": "^7.0.2005",
           "tsx": "^4.23.15",
           "typescript": "^7.0.2"
         }
@@ -2847,18 +3157,18 @@
         ]
       }
     },
-    "oxlint-tsgolint@npm:^7.0.2004": {
-      "checksum": "001576ab23a38ea93d4facee9a0515d05a9c746826c32b4890fbe7cb55a40ddc23cc85f7c0d6ba56e3f2ff2977c8e02cddd72f0f507f3a2a9e3c8db272251227",
+    "oxlint-tsgolint@npm:^7.0.2005": {
+      "checksum": "e909b84f6969d638e40ebe4270165980972b05873a00ea7b4f4e48d376fb3dda1c471815c6c2a280554032d3ccaf0591814c962f6eed85ab5f042e777bba9421",
       "resolution": {
-        "resolution": "oxlint-tsgolint@npm:7.0.2004",
-        "version": "7.0.2004",
+        "resolution": "oxlint-tsgolint@npm:7.0.2005",
+        "version": "7.0.2005",
         "dependencies": {
-          "@oxlint-tsgolint/darwin-arm64": "7.0.2004",
-          "@oxlint-tsgolint/darwin-x64": "7.0.2004",
-          "@oxlint-tsgolint/linux-arm64": "7.0.2004",
-          "@oxlint-tsgolint/linux-x64": "7.0.2004",
-          "@oxlint-tsgolint/win32-arm64": "7.0.2004",
-          "@oxlint-tsgolint/win32-x64": "7.0.2004"
+          "@oxlint-tsgolint/darwin-arm64": "7.0.2005",
+          "@oxlint-tsgolint/darwin-x64": "7.0.2005",
+          "@oxlint-tsgolint/linux-arm64": "7.0.2005",
+          "@oxlint-tsgolint/linux-x64": "7.0.2005",
+          "@oxlint-tsgolint/win32-arm64": "7.0.2005",
+          "@oxlint-tsgolint/win32-x64": "7.0.2005"
         },
         "optionalDependencies": [
           "@oxlint-tsgolint/darwin-arm64",
@@ -2915,18 +3225,18 @@
         "version": "2.1.1"
       }
     },
-    "rsbuild-plugin-dts@npm:1.0.3": {
-      "checksum": "54fc98bbc68bfc4edbe1ea1f5b6e64d7a788153afd0bcb4dc442d5c27e7ccce7b69c927485ead78270fb6f96f78d0608c164e148d9818e6720ac7eb24d828eec",
+    "rsbuild-plugin-dts@npm:1.0.4": {
+      "checksum": "40b6d4b651780ea65043bf16dfefab4a0d7d11ba592651f667ef90fb858a8b2e3936744be47a4f3b39013357e602bdbf6cc0c04f365c52352d037630e1f5dcb6",
       "resolution": {
-        "resolution": "rsbuild-plugin-dts@npm:1.0.3",
-        "version": "1.0.3",
+        "resolution": "rsbuild-plugin-dts@npm:1.0.4",
+        "version": "1.0.4",
         "dependencies": {
-          "@ast-grep/napi": "0.45.3"
+          "@ast-grep/napi": "0.51.0"
         },
         "peerDependencies": {
           "@microsoft/api-extractor": "^7",
           "@rsbuild/core": "^2.0.0",
-          "typescript": "^5 || ^6 || ^7"
+          "typescript": "^5 || ^6 || ^7 || ^7.1.0-0"
         },
         "optionalPeerDependencies": [
           "@microsoft/api-extractor",
